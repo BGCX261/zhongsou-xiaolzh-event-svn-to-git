@@ -1,0 +1,115 @@
+// 词性对新闻特征权重的影响（[0~255]：0代表不使用的词性）
+<KindWeight>
+	<kind weight="3">n</kind>         // 名词
+	<kind weight="5">nr</kind>        // 人名
+	<kind weight="3">nr1</kind>       // 汉语姓氏
+	<kind weight="3">nr2</kind>       // 汉语名字
+	<kind weight="3">nrj</kind>       // 日语人名
+	<kind weight="3">nrf</kind>       // 音译人名
+	<kind weight="5">ns</kind>        // 地名
+	<kind weight="3">nsf</kind>       // 音译地名
+	<kind weight="5">nt</kind>        // 机构团体名
+	<kind weight="5">nz</kind>        // 其它专名
+	<kind weight="3">nl</kind>        // 名词性惯用语
+	<kind weight="3">ng</kind>        // 名词性语素
+
+	<kind weight="0">t</kind>         // 时间词
+	<kind weight="0">tg</kind>        // 时间词性语素
+
+	<kind weight="3">s</kind>         // 处所词
+	<kind weight="1">f</kind>         // 方位词
+
+	<kind weight="3">v</kind>         // 动词
+	<kind weight="1">vd</kind>        // 副动词
+	<kind weight="3">vn</kind>        // 名动词
+	<kind weight="0">vshi</kind>      // 动词“是”
+	<kind weight="0">vyou</kind>      // 动词“有”
+	<kind weight="3">vf</kind>        // 趋向动词
+	<kind weight="3">vx</kind>        // 形式动词
+	<kind weight="3">vi</kind>        // 不及物动词（内动词）
+	<kind weight="3">vl</kind>        // 动词性惯用语
+	<kind weight="3">vg</kind>        // 动词性语素
+
+	<kind weight="1">a</kind>         // 形容词
+	<kind weight="2">ad</kind>        // 副形词
+	<kind weight="3">an</kind>        // 名形词
+	<kind weight="2">ag</kind>        // 形容词性语素
+	<kind weight="2">al</kind>        // 形容词性惯用语
+
+	<kind weight="1">b</kind>         // 区别词
+	<kind weight="1">bl</kind>        // 区别词性惯用语
+
+	<kind weight="3">z</kind>         // 状态词
+
+	<kind weight="0">r</kind>         // 代词
+	<kind weight="0">rr</kind>        // 人称代词
+	<kind weight="0">rz</kind>        // 指示代词
+	<kind weight="0">rzt</kind>       // 时间指示代词
+	<kind weight="0">rzs</kind>       // 处所指示代词
+	<kind weight="0">rzv</kind>       // 谓词性指示代词
+	<kind weight="0">ry</kind>        // 疑问代词
+	<kind weight="0">ryt</kind>       // 时间疑问代词
+	<kind weight="0">rys</kind>       // 处所疑问代词
+	<kind weight="0">ryv</kind>       // 谓词性疑问代词
+	<kind weight="0">rg</kind>        // 代词性语素
+
+	<kind weight="0">m</kind>         // 数词
+	<kind weight="0">mq</kind>        // 数量词
+
+	<kind weight="3">q</kind>         // 量词
+	<kind weight="3">qv</kind>        // 动量词
+	<kind weight="3">qt</kind>        // 时量词
+
+	<kind weight="1">d</kind>         // 副词
+	<kind weight="3">dl</kind>        // ※（例子：近年来）
+
+	<kind weight="0">p</kind>         // 介词
+	<kind weight="0">pba</kind>       // 介词“把”
+	<kind weight="0">pbei</kind>      // 介词“被”
+
+	<kind weight="0">c</kind>         // 连词
+	<kind weight="0">cc</kind>        // 并列连词
+
+	<kind weight="0">u</kind>         // 助词
+	<kind weight="0">uzhe</kind>      // 着
+	<kind weight="0">ule</kind>       // 了 喽
+	<kind weight="0">uguo</kind>      // 过
+	<kind weight="0">ude1</kind>      // 的 底
+	<kind weight="0">ude2</kind>      // 地
+	<kind weight="0">ude3</kind>      // 得
+	<kind weight="0">usuo</kind>      // 所
+	<kind weight="0">udeng</kind>     // 等 等等 云云
+	<kind weight="0">uyy</kind>       // 一样 一般 似的 般
+	<kind weight="0">udh</kind>       // 的话
+	<kind weight="0">uls</kind>       // 来讲 来说 而言 说来
+	<kind weight="0">uzhi</kind>      // 之
+	<kind weight="0">ulian</kind>     // 连 （“连小学生都会”）
+
+	<kind weight="0">e</kind>         // 叹词
+	<kind weight="0">y</kind>         // 语气词(delete yg)
+	<kind weight="0">o</kind>         // 拟声词
+
+	<kind weight="3">h</kind>         // 前缀
+	<kind weight="3">k</kind>         // 后缀
+
+	<kind weight="0">x</kind>         // 字符串
+	<kind weight="3">xx</kind>        // 非语素字
+	<kind weight="3">xu</kind>        // 网址URL
+
+	<kind weight="0">w</kind>         // 标点符号
+	<kind weight="0">wkz</kind>       // 左括号，全角：（ 〔  ［  ｛  《 【  〖 〈   半角：( [ { "小于号"
+	<kind weight="0">wky</kind>       // 右括号，全角：） 〕  ］ ｝ 》  】 〗 〉 半角： ) ] { "大于号"
+	<kind weight="0">wyz</kind>       // 左引号，全角：“ ‘ 『
+	<kind weight="0">wyy</kind>       // 右引号，全角：” ’ 』
+	<kind weight="0">wj</kind>        // 句号，全角：。
+	<kind weight="0">ww</kind>        // 问号，全角：？ 半角：?
+	<kind weight="0">wt</kind>        // 叹号，全角：！ 半角：!
+	<kind weight="0">wd</kind>        // 逗号，全角：， 半角：,
+	<kind weight="0">wf</kind>        // 分号，全角：； 半角： ;
+	<kind weight="0">wn</kind>        // 顿号，全角：、
+	<kind weight="0">wm</kind>        // 冒号，全角：： 半角： :
+	<kind weight="0">ws</kind>        // 省略号，全角：……  …
+	<kind weight="0">wp</kind>        // 破折号，全角：——   －－   ——－   半角：---  ----
+	<kind weight="0">wb</kind>        // 百分号千分号，全角：％ ‰   半角：%
+	<kind weight="0">wh</kind>        // 单位符号，全角：￥ ＄ ￡  °  ℃  半角：$
+</KindWeight>

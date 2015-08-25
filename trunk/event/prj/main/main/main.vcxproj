@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\extor\src\base_share_container.cpp" />
+    <ClCompile Include="..\..\..\extor\src\base_word_extractor.cpp" />
+    <ClCompile Include="..\..\..\extor\src\CE_word_extractor.cpp" />
+    <ClCompile Include="..\..\..\extor\src\graph_word_extractor.cpp" />
+    <ClCompile Include="..\..\..\extor\src\TF_word_extractor.cpp" />
+    <ClCompile Include="..\..\..\extor\src\word_extractor_API.cpp" />
+    <ClCompile Include="..\..\..\extor\src\word_IDF_calcor.cpp" />
+    <ClCompile Include="..\..\..\extor\src\zky_word_extractor.cpp" />
+    <ClCompile Include="..\..\..\src\doc_infer.cpp" />
+    <ClCompile Include="..\..\..\src\event_container.cpp" />
+    <ClCompile Include="..\..\..\src\event_infer.cpp" />
+    <ClCompile Include="..\..\..\src\event_manager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\doc_storage\UC_DiskQuotaManager.h" />
+    <ClInclude Include="..\..\..\doc_storage\UT_Persistent_KeyValue.h" />
+    <ClInclude Include="..\..\..\extor\src\base_share_container.h" />
+    <ClInclude Include="..\..\..\extor\src\base_word_extractor.h" />
+    <ClInclude Include="..\..\..\extor\src\CE_word_extractor.h" />
+    <ClInclude Include="..\..\..\extor\src\ext_common_def.h" />
+    <ClInclude Include="..\..\..\extor\src\graph_word_extractor.h" />
+    <ClInclude Include="..\..\..\extor\src\TF_word_extractor.h" />
+    <ClInclude Include="..\..\..\extor\src\word_extractor_API.h" />
+    <ClInclude Include="..\..\..\extor\src\word_IDF_calcor.h" />
+    <ClInclude Include="..\..\..\extor\src\zky_word_extractor.h" />
+    <ClInclude Include="..\..\..\include\UC_Allocator_Recycle.h" />
+    <ClInclude Include="..\..\..\include\UC_MD5.h" />
+    <ClInclude Include="..\..\..\include\UC_ReadConfigFile.h" />
+    <ClInclude Include="..\..\..\include\UH_Define.h" />
+    <ClInclude Include="..\..\..\include\UT_Allocator.h" />
+    <ClInclude Include="..\..\..\include\UT_HashSearch.h" />
+    <ClInclude Include="..\..\..\include\UT_HashTable_Pro.h" />
+    <ClInclude Include="..\..\..\include\UT_Queue.h" />
+    <ClInclude Include="..\..\..\include\WFInt.h" />
+    <ClInclude Include="..\..\..\include\WFLock.h" />
+    <ClInclude Include="..\..\..\include\WFLog.h" />
+    <ClInclude Include="..\..\..\include\WFMem.h" />
+    <ClInclude Include="..\..\..\include\WFMonitor.h" />
+    <ClInclude Include="..\..\..\include\WFPub.h" />
+    <ClInclude Include="..\..\..\include\WFQueue.h" />
+    <ClInclude Include="..\..\..\include\WFSocket.h" />
+    <ClInclude Include="..\..\..\include\WFThread.h" />
+    <ClInclude Include="..\..\..\src\common_def.h" />
+    <ClInclude Include="..\..\..\src\doc_infer.h" />
+    <ClInclude Include="..\..\..\src\event_container.h" />
+    <ClInclude Include="..\..\..\src\event_infer.h" />
+    <ClInclude Include="..\..\..\src\event_manager.h" />
+    <ClInclude Include="..\..\..\src\evt_mgr_confer.h" />
+    <ClInclude Include="..\..\..\src\utility.h" />
+    <ClInclude Include="..\..\..\src\whl_list.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{459079FE-B559-4B05-A2CE-2E44CA4DCBE6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>main</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\extor\include;..\..\..\extor\zky_cut;..\..\..\extor\src;..\..\..\include;..\..\..\src;..\..\..\doc_storage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\..\extor\zky_cut;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>NLPIR.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

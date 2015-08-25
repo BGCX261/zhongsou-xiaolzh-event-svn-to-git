@@ -1,0 +1,1425 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ADD_FILE	include/common_def.h	34;"	d
+ALLOC_GRANULARITY	include/WFMem.h	190;"	d
+AR	extor/Makefile	/^AR = ar$/;"	m
+AR_TAG_NAME	include/common_def.h	26;"	d
+AcceptConn	include/WFSocket.h	/^    sock_descriptor AcceptConn(struct sockaddr *pClientAddr = NULL)$/;"	f	class:nsWFSocket::CTcpServer
+AcceptThread	include/WFSocket.h	/^    static void AcceptThread(void *pParam)$/;"	f	class:nsWFSocket::CTcpServer
+AddInCurrPeriod	include/WFMem.h	/^    char *AddInCurrPeriod(SPeriodHead *pPeriod, size_t DataSize)$/;"	f	class:nsWFMem::CFreeByTimeMemory
+AddKey_FL	include/UT_HashSearch.h	/^	var_4 AddKey_FL(T_Key tKey, var_vd* vpData = NULL, var_vd** vppRetBuf = NULL)$/;"	f	class:UT_HashSearch
+AddKey_VL	include/UT_HashSearch.h	/^	var_4 AddKey_VL(T_Key tKey, var_vd* vpData, var_4 lDataLen, var_vd** vppRetBuf = NULL, var_4* lpRetDataLen = NULL)$/;"	f	class:UT_HashSearch
+Alloc	include/WFMem.h	/^    char *Alloc(size_t DataSize, time_t tExpiredTime)$/;"	f	class:nsWFMem::CFreeByTimeMemory
+Alloc	include/WFMem.h	/^    void *Alloc()$/;"	f	class:nsWFMem::CBlockMemory
+Alloc	include/WFMem.h	/^    void *Alloc(size_t AllocSize)$/;"	f	class:nsWFMem::CReuseMemory
+AllocMem	include/UC_Allocator_Recycle.h	/^	var_1* AllocMem()$/;"	f	class:UC_Allocator_Recycle
+Allocate	include/UT_Allocator.h	/^	T* Allocate(var_8 lAllocLen = 1)$/;"	f	class:UT_Allocator
+AtoUI64	include/WFPub.h	/^static uint64_t AtoUI64(const char *pStr)$/;"	f	namespace:nsWFPub
+BIG5_CODE	extor/zky_cut/NLPIR.h	94;"	d
+BM_GET_BIT	include/UH_Define.h	1583;"	d
+BM_LEN_1BYTE	include/UH_Define.h	1585;"	d
+BM_LEN_2BYTE	include/UH_Define.h	1586;"	d
+BM_LEN_4BYTE	include/UH_Define.h	1587;"	d
+BM_LEN_8BYTE	include/UH_Define.h	1588;"	d
+BM_RULE_BIT	include/UH_Define.h	/^static var_u1 BM_RULE_BIT[] = {0x80, 0x40, 0x20, 0x10, 0x8, 0x4, 0x2, 0x1};$/;"	v
+BM_RULE_ZERO_BIT	include/UH_Define.h	/^static var_u1 BM_RULE_ZERO_BIT[] = {0x7F, 0xBF, 0xDF, 0xEF, 0xF7, 0xFB, 0xFD, 0xFE};$/;"	v
+BM_SET_BIT	include/UH_Define.h	1581;"	d
+BM_SET_BIT_ZERO	include/UH_Define.h	1582;"	d
+BlockingRecv	include/WFSocket.h	/^    int BlockingRecv(sock_descriptor sock, char *pRecvBuf, size_t TotalRecvLen)$/;"	f	class:nsWFSocket::CSock
+BlockingSend	include/WFSocket.h	/^    int BlockingSend(sock_descriptor sock, const char *pSendBuf, size_t TotalSendLen)$/;"	f	class:nsWFSocket::CSock
+CAutolock	include/WFLock.h	/^    CAutolock(CLock *pLock)$/;"	f	class:nsWFLock::CAutolock
+CAutolock	include/WFLock.h	/^class CAutolock$/;"	c	namespace:nsWFLock
+CBlockListQueue	include/WFQueue.h	/^    CBlockListQueue()$/;"	f	class:nsWFQueue::CBlockListQueue
+CBlockListQueue	include/WFQueue.h	/^class CBlockListQueue$/;"	c	namespace:nsWFQueue
+CBlockListSet	include/WFQueue.h	/^	CBlockListSet()$/;"	f	class:nsWFQueue::CBlockListSet
+CBlockListSet	include/WFQueue.h	/^class CBlockListSet$/;"	c	namespace:nsWFQueue
+CBlockMemory	include/WFMem.h	/^    CBlockMemory()$/;"	f	class:nsWFMem::CBlockMemory
+CBlockMemory	include/WFMem.h	/^class CBlockMemory$/;"	c	namespace:nsWFMem
+CC	Makefile	/^CC = g++$/;"	m
+CC	extor/Makefile	/^CC = g++$/;"	m
+CCheckTimeoutList	include/WFQueue.h	/^    CCheckTimeoutList()$/;"	f	class:nsWFQueue::CCheckTimeoutList
+CCheckTimeoutList	include/WFQueue.h	/^class CCheckTimeoutList$/;"	c	namespace:nsWFQueue
+CDATA_BEG_FLG	include/common_def.h	14;"	d
+CDATA_BEG_LEN	include/common_def.h	15;"	d
+CDATA_END_FLG	include/common_def.h	16;"	d
+CDATA_END_LEN	include/common_def.h	17;"	d
+CDailyLog	include/WFLog.h	/^    CDailyLog()$/;"	f	class:nsWFLog::CDailyLog
+CDailyLog	include/WFLog.h	/^class CDailyLog$/;"	c	namespace:nsWFLog
+CE_EXTRACTOR	extor/include/word_extractor_API.h	26;"	d
+CE_word_extractor	extor/include/CE_word_extractor.h	/^class CE_word_extractor : public base_word_extractor$/;"	c
+CE_word_extractor	extor/src/CE_word_extractor.cpp	/^CE_word_extractor::CE_word_extractor()$/;"	f	class:CE_word_extractor
+CFLAGS	Makefile	/^CFLAGS = -g$/;"	m
+CFLAGS	extor/Makefile	/^CFLAGS = -g$/;"	m
+CFreeByTimeMemory	include/WFMem.h	/^    CFreeByTimeMemory()$/;"	f	class:nsWFMem::CFreeByTimeMemory
+CFreeByTimeMemory	include/WFMem.h	/^class CFreeByTimeMemory$/;"	c	namespace:nsWFMem
+CHECK_FAILED	extor/include/ext_common_def.h	69;"	d
+CHECK_FAILED	include/common_def.h	60;"	d
+CICTCLAS	extor/zky_cut/NLPIR.h	71;"	d
+CLEAR_DOC_START	include/common_def.h	7;"	d
+CLEAR_START	include/common_def.h	38;"	d
+CL_TAG_NAME	include/common_def.h	25;"	d
+CLock	include/WFLock.h	/^        CLock()$/;"	f	class:nsWFLock::CLock
+CLock	include/WFLock.h	/^    class CLock$/;"	c	namespace:nsWFLock
+CMonitor	include/WFMonitor.h	/^    CMonitor()$/;"	f	class:nsWFMonitor::CMonitor
+CMonitor	include/WFMonitor.h	/^class CMonitor$/;"	c	namespace:nsWFMonitor
+CNLPIR	extor/zky_cut/NLPIR.h	/^class  CNLPIR {$/;"	c
+CP_MMF	include/UH_Define.h	/^} CP_MMF;$/;"	t	typeref:struct:_cp_memory_map_file_
+CP_MUTEXLOCK	include/UH_Define.h	/^} CP_MUTEXLOCK;$/;"	t	typeref:struct:CP_MutexLock
+CP_MUTEXLOCK_RW	include/UH_Define.h	/^} CP_MUTEXLOCK_RW;$/;"	t	typeref:struct:CP_MutexLock_RW
+CP_MUTEXLOCK_RW_FUN	include/UH_Define.h	/^} CP_MUTEXLOCK_RW_FUN;$/;"	t	typeref:struct:CP_MutexLock_RW_FUN
+CP_MUTEXLOCK_RW_LCK	include/UH_Define.h	/^} CP_MUTEXLOCK_RW_LCK;$/;"	t	typeref:struct:CP_MutexLock_RW_LCK
+CP_MutexLock	include/UH_Define.h	/^	CP_MutexLock()$/;"	f	struct:CP_MutexLock
+CP_MutexLock	include/UH_Define.h	/^typedef struct CP_MutexLock$/;"	s
+CP_MutexLock_RW	include/UH_Define.h	/^	CP_MutexLock_RW()$/;"	f	struct:CP_MutexLock_RW
+CP_MutexLock_RW	include/UH_Define.h	/^	CP_MutexLock_RW(var_bl is_writer_wins = true)$/;"	f	struct:CP_MutexLock_RW
+CP_MutexLock_RW	include/UH_Define.h	/^typedef struct CP_MutexLock_RW$/;"	s
+CP_MutexLock_RW_FUN	include/UH_Define.h	/^	CP_MutexLock_RW_FUN()$/;"	f	struct:CP_MutexLock_RW_FUN
+CP_MutexLock_RW_FUN	include/UH_Define.h	/^typedef struct CP_MutexLock_RW_FUN$/;"	s
+CP_MutexLock_RW_LCK	include/UH_Define.h	/^	CP_MutexLock_RW_LCK()$/;"	f	struct:CP_MutexLock_RW_LCK
+CP_MutexLock_RW_LCK	include/UH_Define.h	/^typedef struct CP_MutexLock_RW_LCK$/;"	s
+CP_P64	include/UH_Define.h	619;"	d
+CP_P64	include/UH_Define.h	622;"	d
+CP_PU64	include/UH_Define.h	620;"	d
+CP_PU64	include/UH_Define.h	623;"	d
+CP_SOCKET_T	include/UH_Define.h	1080;"	d
+CP_SOCKET_T	include/UH_Define.h	1082;"	d
+CP_STAT_TIME	include/UH_Define.h	/^} CP_STAT_TIME;$/;"	t	typeref:struct:_cp_stat_time_
+CP_THREAD_T	include/UH_Define.h	1484;"	d
+CP_THREAD_T	include/UH_Define.h	1486;"	d
+CPriorityBlockQueue	include/WFQueue.h	/^    CPriorityBlockQueue()$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+CPriorityBlockQueue	include/WFQueue.h	/^class CPriorityBlockQueue : public CBlockListSet$/;"	c	namespace:nsWFQueue
+CReuseMemory	include/WFMem.h	/^    CReuseMemory()$/;"	f	class:nsWFMem::CReuseMemory
+CReuseMemory	include/WFMem.h	/^class CReuseMemory$/;"	c	namespace:nsWFMem
+CSock	include/WFSocket.h	/^    CSock()$/;"	f	class:nsWFSocket::CSock
+CSock	include/WFSocket.h	/^class CSock$/;"	c	namespace:nsWFSocket
+CTcpClient	include/WFSocket.h	/^class CTcpClient : public CSock$/;"	c	namespace:nsWFSocket
+CTcpServer	include/WFSocket.h	/^    CTcpServer()$/;"	f	class:nsWFSocket::CTcpServer
+CTcpServer	include/WFSocket.h	/^class CTcpServer : public CSock$/;"	c	namespace:nsWFSocket
+CThread	include/WFThread.h	/^    CThread(size_t MaxThreadCount = 1024)$/;"	f	class:nsWFThread::CThread
+CThread	include/WFThread.h	/^class CThread$/;"	c	namespace:nsWFThread
+CTraversalDir	include/WFPub.h	/^    CTraversalDir()$/;"	f	class:nsWFPub::CTraversalDir
+CTraversalDir	include/WFPub.h	/^class CTraversalDir$/;"	c	namespace:nsWFPub
+CTrySaveLog	include/WFLog.h	/^    CTrySaveLog()$/;"	f	class:nsWFLog::CTrySaveLog
+CTrySaveLog	include/WFLog.h	/^class CTrySaveLog$/;"	c	namespace:nsWFLog
+CXmlParser	include/WFPub.h	/^class CXmlParser$/;"	c	namespace:nsWFPub
+Check	include/WFQueue.h	/^    int Check(time_t tNow, DataType *pData)$/;"	f	class:nsWFQueue::CCheckTimeoutList
+CheckFree	include/WFMem.h	/^    void CheckFree()$/;"	f	class:nsWFMem::CFreeByTimeMemory
+CleanOldLog	include/WFLog.h	/^    void CleanOldLog()$/;"	f	class:nsWFLog::CDailyLog
+Cleanup	include/WFMonitor.h	/^    int Cleanup()$/;"	f	class:nsWFMonitor::CMonitor
+Cleanup	include/WFSocket.h	/^    int Cleanup()$/;"	f	class:nsWFSocket::CTcpServer
+Clear	include/WFMem.h	/^    void Clear()$/;"	f	class:nsWFMem::CReuseMemory
+ClearFolder	include/utility.h	/^bool static ClearFolder(var_1 *folder)$/;"	f
+ClearHashSearch	include/UT_HashSearch.h	/^	var_4 ClearHashSearch()$/;"	f	class:UT_HashSearch
+ClearQueue	include/UT_Queue.h	/^	void ClearQueue()$/;"	f	class:UT_Queue
+ClearStr	include/WFPub.h	/^static int ClearStr(char *pStr)$/;"	f	namespace:nsWFPub
+ClearStr	include/WFPub.h	/^static int ClearStr(char *pStr, int iStrLen)$/;"	f	namespace:nsWFPub
+ClearStrHead	include/WFPub.h	/^static int ClearStrHead(char *pStr)$/;"	f	namespace:nsWFPub
+ClearStrTail	include/WFPub.h	/^static int ClearStrTail(char *pStr)$/;"	f	namespace:nsWFPub
+Close	include/WFSocket.h	/^    void Close(sock_descriptor sock)$/;"	f	class:nsWFSocket::CSock
+CloseSocket	include/WFSocket.h	28;"	d
+CloseSocket	include/WFSocket.h	41;"	d
+ConnServer	include/WFSocket.h	/^    sock_descriptor ConnServer(const char *pIP, unsigned short usPort, unsigned int uimsTimeout = 0)$/;"	f	class:nsWFSocket::CTcpClient
+ConnServer	include/WFSocket.h	/^    sock_descriptor ConnServer(unsigned long ulINETAddr, unsigned short usPort, unsigned int uimsTimeout = 0)$/;"	f	class:nsWFSocket::CTcpClient
+CopyFile	include/WFPub.h	/^static int CopyFile(const char *pSrcFile, const char *pDestFile)$/;"	f	namespace:nsWFPub
+CurrAllocSize	include/WFMem.h	/^        size_t CurrAllocSize;$/;"	m	struct:nsWFMem::CFreeByTimeMemory::SDataBlockMeta
+DEFAULTMAXBLOCKLEN	include/UT_Allocator.h	9;"	d
+DEFAULTMAXBLOCKNUM	include/UT_Allocator.h	8;"	d
+DEFAULT_START	include/common_def.h	37;"	d
+DEF_MAX_BUF_SEG_NUM	include/UC_Allocator_Recycle.h	8;"	d
+DEF_PRE_BUF_BLK_NUM	include/UC_Allocator_Recycle.h	9;"	d
+DEL_FILE	include/common_def.h	35;"	d
+DF_MAX_NUM	extor/include/ext_common_def.h	20;"	d
+DIR_INC	Makefile	/^DIR_INC = -I.\/include -I.\/extor\/include -I.\/extor\/zky_cut -I.\/doc_storage$/;"	m
+DIR_INC	extor/Makefile	/^DIR_INC = -I.\/include\/ -I..\/include\/ -I.\/zky_cut$/;"	m
+DIR_LIB	Makefile	/^DIR_LIB = -L\/home\/newstech\/bin -L.\/extor\/zky_cut$/;"	m
+DIR_OBJ	Makefile	/^DIR_OBJ = .\/obj$/;"	m
+DIR_OBJ	extor/Makefile	/^DIR_OBJ = .\/obj$/;"	m
+DIR_SRC	Makefile	/^DIR_SRC = .\/src$/;"	m
+DIR_SRC	extor/Makefile	/^DIR_SRC = .\/src$/;"	m
+DOCID_TAG_NAME	include/common_def.h	23;"	d
+DOC_ADD	src/event_manager.h	121;"	d
+DOC_DEL	src/event_manager.h	122;"	d
+DQM_DATA_END_FLAG	doc_storage/UC_DiskQuotaManager.h	18;"	d
+DQM_DATA_END_FLAG_SIZE	doc_storage/UC_DiskQuotaManager.h	19;"	d
+DQM_MAX_PAYLOAD_SIZE	doc_storage/UC_DiskQuotaManager.h	17;"	d
+DQM_MAX_STORE_PATH_COUNT	doc_storage/UC_DiskQuotaManager.h	16;"	d
+Data	include/WFQueue.h	/^        DataType Data;$/;"	m	struct:nsWFQueue::CCheckTimeoutList::SNode
+DeQueue	include/WFQueue.h	/^    int DeQueue()$/;"	f	class:nsWFQueue::CBlockListQueue
+DeQueue	include/WFQueue.h	/^    int DeQueue(int iPriority)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+DeQueue	include/WFQueue.h	/^    int DeQueue(int iPriority, void *pData, size_t &DataLen)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+DeQueue	include/WFQueue.h	/^    int DeQueue(void *pData, size_t &DataLen)$/;"	f	class:nsWFQueue::CBlockListQueue
+DeQueue	include/WFQueue.h	/^    int DeQueue(void *pData, size_t &DataLen)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+Decode	include/UC_MD5.h	/^	void Decode (UINT4 *output, unsigned char *input, unsigned int len)$/;"	f	class:UC_MD5
+DeleteKey_FL	include/UT_HashSearch.h	/^	var_4 DeleteKey_FL(T_Key tKey)$/;"	f	class:UT_HashSearch
+EMGR_ERROR_INIT	include/common_def.h	6;"	d
+EVTID_TAG_NAME	include/common_def.h	24;"	d
+EVT_DEL	src/event_manager.h	123;"	d
+EXEC_DIR	Makefile	/^EXEC_DIR = \/data05\/event\/exec $/;"	m
+EnQueue	include/WFQueue.h	/^    int EnQueue(int iPriority, void *pData, size_t DataLen)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+EnQueue	include/WFQueue.h	/^    int EnQueue(time_t tExpired, const DataType *pData)$/;"	f	class:nsWFQueue::CCheckTimeoutList
+EnQueue	include/WFQueue.h	/^    int EnQueue(void *pData, size_t DataLen)$/;"	f	class:nsWFQueue::CBlockListQueue
+Encode	include/UC_MD5.h	/^	void Encode (unsigned char *output, UINT4 *input, unsigned int len)$/;"	f	class:UC_MD5
+ErrorLevel	include/WFMonitor.h	/^    enum ErrorLevel$/;"	g	class:nsWFMonitor::CMonitor
+ErrorLevel	src/event_manager.cpp	/^enum ErrorLevel$/;"	g	file:
+ErrorType	include/WFMonitor.h	/^    enum ErrorType$/;"	g	class:nsWFMonitor::CMonitor
+ErrorType	src/event_manager.cpp	/^enum ErrorType$/;"	g	file:
+ExpiredPeriod	include/WFMem.h	/^        size_t ExpiredPeriod;$/;"	m	struct:nsWFMem::CFreeByTimeMemory::SPeriodHead
+F	include/UC_MD5.h	45;"	d
+FAILE_CALL	extor/include/ext_common_def.h	112;"	d
+FAILE_CALL	include/common_def.h	103;"	d
+FAILE_CALL_ID	extor/include/ext_common_def.h	116;"	d
+FAILE_CALL_ID	include/common_def.h	107;"	d
+FAILE_CALL_LEN_PARAM	extor/include/ext_common_def.h	114;"	d
+FAILE_CALL_LEN_PARAM	include/common_def.h	105;"	d
+FAILE_CALL_PARAM	extor/include/ext_common_def.h	113;"	d
+FAILE_CALL_PARAM	include/common_def.h	104;"	d
+FAILE_CALL_RET	extor/include/ext_common_def.h	115;"	d
+FAILE_CALL_RET	include/common_def.h	106;"	d
+FAILE_DUPSTR	extor/include/ext_common_def.h	119;"	d
+FAILE_DUPSTR	include/common_def.h	110;"	d
+FAILE_NEW	extor/include/ext_common_def.h	118;"	d
+FAILE_NEW	include/common_def.h	109;"	d
+FF	include/UC_MD5.h	54;"	d
+FileIsExisting	include/WFPub.h	/^static bool FileIsExisting(const char *pFile)$/;"	f	namespace:nsWFPub
+FlushData	include/WFLog.h	/^    void FlushData()$/;"	f	class:nsWFLog::CDailyLog
+Free	include/WFMem.h	/^    void Free(void *pBlock)$/;"	f	class:nsWFMem::CBlockMemory
+FreeAll	include/WFMem.h	/^    void FreeAll()$/;"	f	class:nsWFMem::CBlockMemory
+FreeAllocator	include/UC_Allocator_Recycle.h	/^	void FreeAllocator()$/;"	f	class:UC_Allocator_Recycle
+FreeAllocator	include/UT_Allocator.h	/^	var_8 FreeAllocator()$/;"	f	class:UT_Allocator
+FreeMem	include/UC_Allocator_Recycle.h	/^	void FreeMem(var_1* buffer)$/;"	f	class:UC_Allocator_Recycle
+FreePeriodList	include/WFMem.h	/^    int FreePeriodList(SPeriodHead *pPeriod)$/;"	f	class:nsWFMem::CFreeByTimeMemory
+G	include/UC_MD5.h	46;"	d
+GBK_CODE	extor/zky_cut/NLPIR.h	92;"	d
+GBK_FANTI_CODE	extor/zky_cut/NLPIR.h	95;"	d
+GBStrStr	include/WFPub.h	/^static char *GBStrStr(const char *pSrc, const char *pPtn)$/;"	f	namespace:nsWFPub
+GBStriStr	include/WFPub.h	/^static char *GBStriStr(const char *pSrc, const char *pPtn)$/;"	f	namespace:nsWFPub
+GETACCEPTEXSOCKADDRS	include/WFSocket.h	/^    typedef void (PASCAL FAR *GETACCEPTEXSOCKADDRS)(PVOID, DWORD, DWORD, DWORD, LPSOCKADDR*, LPINT, LPSOCKADDR*, LPINT);$/;"	t
+GG	include/UC_MD5.h	57;"	d
+GRAPH_EXTRACTOR	extor/include/word_extractor_API.h	25;"	d
+GetActiveICTCLAS	extor/zky_cut/NLPIR.h	72;"	d
+GetAllocCount	include/WFMem.h	/^    size_t GetAllocCount()$/;"	f	class:nsWFMem::CBlockMemory
+GetAllocateLen	include/UT_Allocator.h	/^	var_8 GetAllocateLen()$/;"	f	class:UT_Allocator
+GetBlockSize	include/WFMem.h	/^    size_t GetBlockSize()$/;"	f	class:nsWFMem::CBlockMemory
+GetCurrQueueLen	include/WFQueue.h	/^    int GetCurrQueueLen(int iQueueSeq)$/;"	f	class:nsWFQueue::CBlockListSet
+GetCurrQueueLen	include/WFQueue.h	/^    size_t GetCurrQueueLen()$/;"	f	class:nsWFQueue::CBlockListQueue
+GetCurrQueueLen	include/WFQueue.h	/^    size_t GetCurrQueueLen()$/;"	f	class:nsWFQueue::CCheckTimeoutList
+GetCurrQueueLen	include/WFQueue.h	/^    size_t GetCurrQueueLen(int iPriority)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+GetDateStr	include/WFPub.h	/^static void GetDateStr(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetDateStrForFilename	include/WFPub.h	/^static void GetDateStrForFilename(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetDateTimeStr	include/WFPub.h	/^static void GetDateTimeStr(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetDateTimeStrForFilename	include/WFPub.h	/^static void GetDateTimeStrForFilename(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetFieldValue	include/UC_ReadConfigFile.h	/^	var_4 GetFieldValue(const var_1* szpField, var_1& usrValue)$/;"	f	class:UC_ReadConfigFile
+GetFieldValue	include/UC_ReadConfigFile.h	/^	var_4 GetFieldValue(const var_1* szpField, var_1* szpValue)$/;"	f	class:UC_ReadConfigFile
+GetFieldValue	include/UC_ReadConfigFile.h	/^	var_4 GetFieldValue(const var_1* szpField, var_4& lrValue)$/;"	f	class:UC_ReadConfigFile
+GetFieldValue	include/UC_ReadConfigFile.h	/^	var_4 GetFieldValue(const var_1* szpField, var_8& lrValue)$/;"	f	class:UC_ReadConfigFile
+GetFieldValue	include/UC_ReadConfigFile.h	/^	var_4 GetFieldValue(const var_1* szpField, var_d8& drValue)$/;"	f	class:UC_ReadConfigFile
+GetFieldValue	include/UC_ReadConfigFile.h	/^	var_4 GetFieldValue(const var_1* szpField, var_f4& frValue)$/;"	f	class:UC_ReadConfigFile
+GetFieldValue	include/UC_ReadConfigFile.h	/^	var_4 GetFieldValue(const var_1* szpField, var_u2& usrValue)$/;"	f	class:UC_ReadConfigFile
+GetFieldValue	include/UC_ReadConfigFile.h	/^	var_4 GetFieldValue(const var_1* szpField, var_u4& lrValue)$/;"	f	class:UC_ReadConfigFile
+GetFieldValue	include/UC_ReadConfigFile.h	/^	var_4 GetFieldValue(const var_1* szpField, var_u8& lrValue)$/;"	f	class:UC_ReadConfigFile
+GetFileLastModTime	include/WFPub.h	/^static int GetFileLastModTime(const char *pFilename, time_t &tLastModTime)$/;"	f	namespace:nsWFPub
+GetFileSize	include/WFPub.h	/^static int GetFileSize(const char *pFilename, int &iFileSize)$/;"	f	namespace:nsWFPub
+GetFileSize	include/WFPub.h	/^static int GetFileSize(const char *pFilename, uint64_t &u64FileSize)$/;"	f	namespace:nsWFPub
+GetFullName	include/WFPub.h	/^    int GetFullName(char *pFullName)$/;"	f	class:nsWFPub::CTraversalDir
+GetGetAcceptExSockaddrs	include/WFSocket.h	/^    long GetGetAcceptExSockaddrs(SOCKET in_sListen, GETACCEPTEXSOCKADDRS& out_fpFunPoint)$/;"	f	class:nsWFSocket::CSock
+GetHeadData	include/WFQueue.h	/^    int GetHeadData(int iPriority, void *&pData, size_t &DataLen)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+GetHeadData	include/WFQueue.h	/^    int GetHeadData(void *&pData, size_t &DataLen)$/;"	f	class:nsWFQueue::CBlockListQueue
+GetIPStr	include/WFSocket.h	/^    const char *GetIPStr()$/;"	f	class:nsWFSocket::CSock
+GetIPStr	include/WFSocket.h	/^    const char *GetIPStr(sock_descriptor sock)$/;"	f	class:nsWFSocket::CSock
+GetIPStr	include/WFSocket.h	/^    const char* GetIPStr(SOCKET in_sListen, char *buffer, GETACCEPTEXSOCKADDRS fpFunPoint = NULL)$/;"	f	class:nsWFSocket::CSock
+GetKeyNum	include/UT_HashSearch.h	/^	var_4 GetKeyNum()$/;"	f	class:UT_HashSearch
+GetMacIPAndPort	include/UC_ReadConfigFile.h	/^	var_4 GetMacIPAndPort(const var_1* szpField, var_1* szpIp, var_u2& usrPort_1, var_u2& usrPort_2)$/;"	f	class:UC_ReadConfigFile
+GetMacIPAndPort	include/UC_ReadConfigFile.h	/^	var_4 GetMacIPAndPort(const var_1* szpField, var_1* szpValue, var_u2& usrValue)$/;"	f	class:UC_ReadConfigFile
+GetMaxQueueLen	include/WFQueue.h	/^    int GetMaxQueueLen()$/;"	f	class:nsWFQueue::CBlockListSet
+GetMaxQueueLen	include/WFQueue.h	/^    size_t GetMaxQueueLen()$/;"	f	class:nsWFQueue::CBlockListQueue
+GetMaxQueueLen	include/WFQueue.h	/^    size_t GetMaxQueueLen()$/;"	f	class:nsWFQueue::CCheckTimeoutList
+GetMaxQueueLen	include/WFQueue.h	/^    size_t GetMaxQueueLen(int iPriority)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+GetName	include/WFPub.h	/^    const char *GetName()$/;"	f	class:nsWFPub::CTraversalDir
+GetQueueBySeq	include/WFQueue.h	/^	CBlockListQueue *GetQueueBySeq(int iQueueSeq)$/;"	f	class:nsWFQueue::CBlockListSet
+GetQueueCount	include/WFQueue.h	/^	int GetQueueCount()$/;"	f	class:nsWFQueue::CBlockListSet
+GetQueueSize	include/UT_Queue.h	/^	var_4 GetQueueSize()$/;"	f	class:UT_Queue
+GetTagPairPos	include/WFPub.h	/^    int GetTagPairPos(const char *pParseBeg, const char *pParseEnd, const char *pTagName, char *&pTagBeg, char *&pTagEnd)$/;"	f	class:nsWFPub::CXmlParser
+GetThreadCount	include/WFThread.h	/^    size_t GetThreadCount()$/;"	f	class:nsWFThread::CThread
+GetThreadID	include/WFThread.h	/^static int GetThreadID()$/;"	f	namespace:nsWFThread
+GetThreadState	include/WFMonitor.h	/^    int32_t GetThreadState(char * const lpszOutBuf, const int32_t i32OutBufSize, uint32_t &u32OutBufLen)$/;"	f	class:nsWFMonitor::CMonitor
+GetTickCnt	include/WFPub.h	/^static uint32_t GetTickCnt()$/;"	f	namespace:nsWFPub
+GetTimeStr	include/WFPub.h	/^static void GetTimeStr(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetTimeStrForFilename	include/WFPub.h	/^static void GetTimeStrForFilename(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetUseBufferLen	include/UT_Allocator.h	/^	var_8 GetUseBufferLen()$/;"	f	class:UT_Allocator
+GetUseMemNum	include/UC_Allocator_Recycle.h	/^	var_8 GetUseMemNum()$/;"	f	class:UC_Allocator_Recycle
+GetVersion	include/UC_Allocator_Recycle.h	/^	const var_1* GetVersion()$/;"	f	class:UC_Allocator_Recycle
+GetVersion	include/UC_ReadConfigFile.h	/^	const var_1* GetVersion()$/;"	f	class:UC_ReadConfigFile
+GetVersion	include/UT_Allocator.h	/^	var_1* GetVersion()$/;"	f	class:UT_Allocator
+GetVersion	include/UT_HashSearch.h	/^	var_1* GetVersion()$/;"	f	class:UT_HashSearch
+GetVersion	include/UT_Queue.h	/^	var_1* GetVersion()$/;"	f	class:UT_Queue
+H	include/UC_MD5.h	47;"	d
+HH	include/UC_MD5.h	60;"	d
+HasFirst	include/WFPub.h	/^    bool HasFirst()$/;"	f	class:nsWFPub::CTraversalDir
+HasFirstFile	include/WFPub.h	/^    bool HasFirstFile()$/;"	f	class:nsWFPub::CTraversalDir
+HasNext	include/WFPub.h	/^    bool HasNext()$/;"	f	class:nsWFPub::CTraversalDir
+HasNextFile	include/WFPub.h	/^    bool HasNextFile()$/;"	f	class:nsWFPub::CTraversalDir
+I	include/UC_MD5.h	48;"	d
+I64d	include/WFPub.h	35;"	d
+I64d	include/WFPub.h	53;"	d
+I64u	include/WFPub.h	36;"	d
+I64u	include/WFPub.h	54;"	d
+I64x	include/WFPub.h	37;"	d
+I64x	include/WFPub.h	55;"	d
+ICTCLAS_AddUserWord	extor/zky_cut/NLPIR.h	65;"	d
+ICTCLAS_DelUsrWord	extor/zky_cut/NLPIR.h	67;"	d
+ICTCLAS_Exit	extor/zky_cut/NLPIR.h	58;"	d
+ICTCLAS_FileProcess	extor/zky_cut/NLPIR.h	60;"	d
+ICTCLAS_GetParagraphProcessAWordCount	extor/zky_cut/NLPIR.h	63;"	d
+ICTCLAS_GetUniProb	extor/zky_cut/NLPIR.h	68;"	d
+ICTCLAS_ImportUserDict	extor/zky_cut/NLPIR.h	59;"	d
+ICTCLAS_Init	extor/zky_cut/NLPIR.h	57;"	d
+ICTCLAS_IsWord	extor/zky_cut/NLPIR.h	69;"	d
+ICTCLAS_ParagraphProcess	extor/zky_cut/NLPIR.h	61;"	d
+ICTCLAS_ParagraphProcessA	extor/zky_cut/NLPIR.h	62;"	d
+ICTCLAS_ParagraphProcessAW	extor/zky_cut/NLPIR.h	64;"	d
+ICTCLAS_SaveTheUsrDic	extor/zky_cut/NLPIR.h	66;"	d
+ICTCLAS_SetPOSmap	extor/zky_cut/NLPIR.h	70;"	d
+ICT_POS_MAP_FIRST	extor/zky_cut/NLPIR.h	76;"	d
+ICT_POS_MAP_SECOND	extor/zky_cut/NLPIR.h	77;"	d
+II	include/UC_MD5.h	63;"	d
+INVALID_ID	include/WFPub.h	/^const int INVALID_ID = 0;$/;"	v
+INVALID_MONITOR_ID	include/WFMonitor.h	/^            INVALID_MONITOR_ID  = -100,$/;"	e	enum:nsWFMonitor::CMonitor::__anon1
+INVALID_PARAMETER	extor/include/ext_common_def.h	111;"	d
+INVALID_PARAMETER	include/common_def.h	102;"	d
+INVALID_SOCKET	include/common_def.h	53;"	d
+INVALID_THREAD_ID	include/WFMonitor.h	/^        INVALID_THREAD_ID   = 0,$/;"	e	enum:nsWFMonitor::CMonitor::__anon1
+Init	include/WFLog.h	/^    int Init(const char *pLogDir, const char *pPrefix, bool bNeedTimeStamp = true, size_t FlushFreq = 1, size_t SavePeriod = 30)$/;"	f	class:nsWFLog::CDailyLog
+Init	include/WFLog.h	/^    int Init(const char *pLogDir, const char *pPrefix, bool bNeedTimeStamp = true, size_t MaxLogSize = 100<<20)$/;"	f	class:nsWFLog::CTrySaveLog
+Init	include/WFLog.h	/^    int Init(const char *pPrefix, bool bNeedTimeStamp = true, size_t MaxLogSize = 100<<20)$/;"	f	class:nsWFLog::CTrySaveLog
+Init	include/WFMem.h	/^    int Init(size_t MaxBatchCount, size_t BlockCountInEachBatch, size_t BlockSize)$/;"	f	class:nsWFMem::CBlockMemory
+Init	include/WFMem.h	/^    int Init(size_t MaxBlockCount, size_t BlockSize)$/;"	f	class:nsWFMem::CBlockMemory
+Init	include/WFMem.h	/^    int Init(size_t MaxMemCount, size_t MemSize)$/;"	f	class:nsWFMem::CReuseMemory
+Init	include/WFMem.h	/^    int Init(size_t PeriodLen, size_t MaxPeriodCount, size_t FreeDelaySec, size_t MaxDataBlockCount, size_t DataBlockSize)$/;"	f	class:nsWFMem::CFreeByTimeMemory
+Init	include/WFPub.h	/^    int Init(const char *pDir)$/;"	f	class:nsWFPub::CTraversalDir
+Init	include/WFQueue.h	/^	int Init(int iQueueCount, int iDefaultQueueDataSize, $/;"	f	class:nsWFQueue::CBlockListSet
+Init	include/WFQueue.h	/^    int Init(int iMinPriority, int iMaxPriority,$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+Init	include/WFQueue.h	/^    int Init(size_t MaxDataSize, size_t MaxQueueLen)$/;"	f	class:nsWFQueue::CBlockListQueue
+Init	include/WFQueue.h	/^    int Init(size_t MaxQueueLen)$/;"	f	class:nsWFQueue::CCheckTimeoutList
+InitConfigFile	include/UC_ReadConfigFile.h	/^	var_4 InitConfigFile(const char* filename)$/;"	f	class:UC_ReadConfigFile
+InitHashSearch	include/UT_HashSearch.h	/^	var_4 InitHashSearch(var_4 lHashTableSize, var_4 lDataLen = 0)$/;"	f	class:UT_HashSearch
+InitQueue	include/UT_Queue.h	/^	var_4 InitQueue(var_4 lMaxQueueSize)$/;"	f	class:UT_Queue
+IsDir	include/WFPub.h	/^    bool IsDir()$/;"	f	class:nsWFPub::CTraversalDir
+IsEmpty	include/WFQueue.h	/^    bool IsEmpty()$/;"	f	class:nsWFQueue::CBlockListQueue
+IsFull	include/WFQueue.h	/^    bool IsFull()$/;"	f	class:nsWFQueue::CBlockListQueue
+IsFull	include/WFQueue.h	/^    bool IsFull(int iPriority)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+IsLittleEndian	include/WFPub.h	/^static bool IsLittleEndian()$/;"	f	namespace:nsWFPub
+IsQueueEmpty	include/UT_Queue.h	/^	var_4 IsQueueEmpty()$/;"	f	class:UT_Queue
+IsQueueFull	include/UT_Queue.h	/^	var_4 IsQueueFull()$/;"	f	class:UT_Queue
+K	include/common_def.h	42;"	d
+KW_MIN_NUM	include/common_def.h	32;"	d
+LEVEL_A	include/WFMonitor.h	/^        LEVEL_A = 1,    \/\/严重$/;"	e	enum:nsWFMonitor::CMonitor::ErrorLevel
+LEVEL_A	src/event_manager.cpp	/^	LEVEL_A = 1,	\/\/严重$/;"	e	enum:ErrorLevel	file:
+LEVEL_B	include/WFMonitor.h	/^        LEVEL_B,        \/\/重要$/;"	e	enum:nsWFMonitor::CMonitor::ErrorLevel
+LEVEL_B	src/event_manager.cpp	/^	LEVEL_B,		\/\/重要$/;"	e	enum:ErrorLevel	file:
+LEVEL_C	include/WFMonitor.h	/^        LEVEL_C,        \/\/一般$/;"	e	enum:nsWFMonitor::CMonitor::ErrorLevel
+LEVEL_C	src/event_manager.cpp	/^	LEVEL_C,		\/\/一般$/;"	e	enum:ErrorLevel	file:
+LEVEL_D	include/WFMonitor.h	/^        LEVEL_D,        \/\/调试$/;"	e	enum:nsWFMonitor::CMonitor::ErrorLevel
+LEVEL_D	src/event_manager.cpp	/^	LEVEL_D,		\/\/调试$/;"	e	enum:ErrorLevel	file:
+LEVEL_E	include/WFMonitor.h	/^        LEVEL_E,        \/\/可忽略$/;"	e	enum:nsWFMonitor::CMonitor::ErrorLevel
+LEVEL_E	src/event_manager.cpp	/^	LEVEL_E,		\/\/可忽略$/;"	e	enum:ErrorLevel	file:
+LIB	extor/Makefile	/^LIB = ..\/lib\/libextor.a$/;"	m
+LOG_ERROR	extor/include/ext_common_def.h	81;"	d
+LOG_ERROR	extor/include/ext_common_def.h	96;"	d
+LOG_ERROR	include/common_def.h	72;"	d
+LOG_ERROR	include/common_def.h	87;"	d
+LOG_FAILE_CALL	extor/include/ext_common_def.h	100;"	d
+LOG_FAILE_CALL	extor/include/ext_common_def.h	85;"	d
+LOG_FAILE_CALL	include/common_def.h	76;"	d
+LOG_FAILE_CALL	include/common_def.h	91;"	d
+LOG_FAILE_CALL_ID	extor/include/ext_common_def.h	104;"	d
+LOG_FAILE_CALL_ID	extor/include/ext_common_def.h	89;"	d
+LOG_FAILE_CALL_ID	include/common_def.h	80;"	d
+LOG_FAILE_CALL_ID	include/common_def.h	95;"	d
+LOG_FAILE_CALL_LEN_PARAM	extor/include/ext_common_def.h	102;"	d
+LOG_FAILE_CALL_LEN_PARAM	extor/include/ext_common_def.h	87;"	d
+LOG_FAILE_CALL_LEN_PARAM	include/common_def.h	78;"	d
+LOG_FAILE_CALL_LEN_PARAM	include/common_def.h	93;"	d
+LOG_FAILE_CALL_PARAM	extor/include/ext_common_def.h	101;"	d
+LOG_FAILE_CALL_PARAM	extor/include/ext_common_def.h	86;"	d
+LOG_FAILE_CALL_PARAM	include/common_def.h	77;"	d
+LOG_FAILE_CALL_PARAM	include/common_def.h	92;"	d
+LOG_FAILE_CALL_RET	extor/include/ext_common_def.h	103;"	d
+LOG_FAILE_CALL_RET	extor/include/ext_common_def.h	88;"	d
+LOG_FAILE_CALL_RET	include/common_def.h	79;"	d
+LOG_FAILE_CALL_RET	include/common_def.h	94;"	d
+LOG_FAILE_DUPSTR	extor/include/ext_common_def.h	107;"	d
+LOG_FAILE_DUPSTR	extor/include/ext_common_def.h	92;"	d
+LOG_FAILE_DUPSTR	include/common_def.h	83;"	d
+LOG_FAILE_DUPSTR	include/common_def.h	98;"	d
+LOG_FAILE_NEW	extor/include/ext_common_def.h	106;"	d
+LOG_FAILE_NEW	extor/include/ext_common_def.h	91;"	d
+LOG_FAILE_NEW	include/common_def.h	82;"	d
+LOG_FAILE_NEW	include/common_def.h	97;"	d
+LOG_INVALID_PARAMETER	extor/include/ext_common_def.h	84;"	d
+LOG_INVALID_PARAMETER	extor/include/ext_common_def.h	99;"	d
+LOG_INVALID_PARAMETER	include/common_def.h	75;"	d
+LOG_INVALID_PARAMETER	include/common_def.h	90;"	d
+LOG_NULL_POINTER	extor/include/ext_common_def.h	83;"	d
+LOG_NULL_POINTER	extor/include/ext_common_def.h	98;"	d
+LOG_NULL_POINTER	include/common_def.h	74;"	d
+LOG_NULL_POINTER	include/common_def.h	89;"	d
+LOG_PARAM	extor/include/ext_common_def.h	105;"	d
+LOG_PARAM	extor/include/ext_common_def.h	90;"	d
+LOG_PARAM	include/common_def.h	81;"	d
+LOG_PARAM	include/common_def.h	96;"	d
+LOG_TRY	extor/include/ext_common_def.h	80;"	d
+LOG_TRY	extor/include/ext_common_def.h	95;"	d
+LOG_TRY	include/common_def.h	71;"	d
+LOG_TRY	include/common_def.h	86;"	d
+LOG_WARNING	extor/include/ext_common_def.h	82;"	d
+LOG_WARNING	extor/include/ext_common_def.h	97;"	d
+LOG_WARNING	include/common_def.h	73;"	d
+LOG_WARNING	include/common_def.h	88;"	d
+LPrintf	include/WFLog.h	/^    void LPrintf(bool bConsoleShow, const char *pFormat, ...)$/;"	f	class:nsWFLog::CDailyLog
+LastError	include/WFPub.h	/^static int LastError()$/;"	f	namespace:nsWFPub
+LoadHashSearch	include/UT_HashSearch.h	/^	var_4 LoadHashSearch(var_1* filename)$/;"	f	class:UT_HashSearch
+Lock	include/WFLock.h	/^        void Lock() $/;"	f	class:nsWFLock::CLock
+LogIn	include/WFMonitor.h	/^    int LogIn(int iThreadID, const char *pThreadDesc = "Thread")$/;"	f	class:nsWFMonitor::CMonitor
+LogOut	include/WFMonitor.h	/^    int LogOut(int iMonitorID, int iThreadID)$/;"	f	class:nsWFMonitor::CMonitor
+MAX_BUFFER_SIZE	include/common_def.h	9;"	d
+MAX_DELAY_LOCKER_NUM	include/UT_HashTable_Pro.h	12;"	d
+MAX_KEYWORD_LEN	extor/include/ext_common_def.h	16;"	d
+MAX_MAX_THRESHOLD	include/common_def.h	41;"	d
+MAX_NEWS_FEATURE_NUM	extor/include/ext_common_def.h	17;"	d
+MAX_QUEUE_COUNT	include/WFQueue.h	/^		MAX_QUEUE_COUNT = 1024,$/;"	e	enum:nsWFQueue::CBlockListSet::__anon2
+MAX_STORE_PATH_COUNT	doc_storage/UT_Persistent_KeyValue.h	17;"	d
+MAX_TABLE_LOCKER_NUM	include/UT_HashTable_Pro.h	9;"	d
+MAX_THREAD_DESCRIPTION_LEN	include/WFMonitor.h	13;"	d
+MAX_USED_POS_NUM	extor/include/ext_common_def.h	18;"	d
+MD5Bits128	include/UC_MD5.h	/^	void MD5Bits128(unsigned char output[], unsigned char * input, unsigned int inputLen)$/;"	f	class:UC_MD5
+MD5Bits32	include/UC_MD5.h	/^	UINT4 MD5Bits32(unsigned char * input, unsigned int inputLen)$/;"	f	class:UC_MD5
+MD5Bits64	include/UC_MD5.h	/^	UINT8 MD5Bits64(unsigned char * input, unsigned int inputLen)$/;"	f	class:UC_MD5
+MD5Final	include/UC_MD5.h	/^	void MD5Final (unsigned char digest[16], MD5_CTX *context)$/;"	f	class:UC_MD5
+MD5Init	include/UC_MD5.h	/^	void MD5Init (MD5_CTX *context)$/;"	f	class:UC_MD5
+MD5Transform	include/UC_MD5.h	/^	void MD5Transform (UINT4 state[4], unsigned char block[64])$/;"	f	class:UC_MD5
+MD5Update	include/UC_MD5.h	/^	void MD5Update (MD5_CTX *context, unsigned char *input, unsigned int inputLen)$/;"	f	class:UC_MD5
+MD5_CTX	include/UC_MD5.h	/^	} MD5_CTX;	$/;"	t	class:UC_MD5	typeref:struct:UC_MD5::__anon3
+MD5_memcpy	include/UC_MD5.h	/^	void MD5_memcpy(POINTER output, POINTER input, unsigned int len)$/;"	f	class:UC_MD5
+MD5_memset	include/UC_MD5.h	/^	void MD5_memset (POINTER output, int value, unsigned int len)$/;"	f	class:UC_MD5
+MIN_DELAY_LOCKER_NUM	include/UT_HashTable_Pro.h	13;"	d
+MIN_DOC_NUM	include/common_def.h	10;"	d
+MIN_MIN_THRESHOLD	include/common_def.h	40;"	d
+MIN_TABLE_LOCKER_NUM	include/UT_HashTable_Pro.h	10;"	d
+MONITOR_LOG_DIR	include/WFMonitor.h	14;"	d
+MakeDir	include/WFPub.h	/^static int MakeDir(const char *pDir)$/;"	f	namespace:nsWFPub
+MonitorThread	include/WFMonitor.h	/^    static void MonitorThread(void *pParam)$/;"	f	class:nsWFMonitor::CMonitor
+MustOpenFile	include/WFPub.h	/^static int MustOpenFile(FILE *&fp, const char *pFile, const char *pMode)$/;"	f	namespace:nsWFPub
+MustRemoveFile	include/WFPub.h	/^static int MustRemoveFile(const char *pFile)$/;"	f	namespace:nsWFPub
+MustRenameFile	include/WFPub.h	/^static int MustRenameFile(const char *pSrcFile, const char *pDestFile)$/;"	f	namespace:nsWFPub
+NID_MAX_NUM	extor/include/ext_common_def.h	21;"	d
+NLPIR_API	extor/zky_cut/NLPIR.h	23;"	d
+NLPIR_API	extor/zky_cut/NLPIR.h	49;"	d
+NULL_POINTER	extor/include/ext_common_def.h	110;"	d
+NULL_POINTER	include/common_def.h	101;"	d
+New	include/WFMem.h	/^static T *New(size_t ObjCount = 1)$/;"	f	namespace:nsWFMem
+OBJS	Makefile	/^OBJS = $(patsubst %.cpp, $(DIR_OBJ)\/%.o, $(notdir $(SRCS)))$/;"	m
+OBJS	extor/Makefile	/^OBJS = $(patsubst %.cpp, $(DIR_OBJ)\/%.o, $(notdir $(SRCS)))$/;"	m
+ORG_INFO	doc_storage/UT_Sort.h	/^	struct ORG_INFO$/;"	s	class:UT_Parallel_QS
+PADDING	include/UC_MD5.h	/^	unsigned char PADDING[64];$/;"	m	class:UC_MD5
+PARAM	extor/include/ext_common_def.h	117;"	d
+PARAM	include/common_def.h	108;"	d
+PATH_2_NAME	extor/include/ext_common_def.h	72;"	d
+PATH_2_NAME	extor/include/ext_common_def.h	74;"	d
+PATH_2_NAME	include/common_def.h	63;"	d
+PATH_2_NAME	include/common_def.h	65;"	d
+PKU_POS_MAP_FIRST	extor/zky_cut/NLPIR.h	79;"	d
+PKU_POS_MAP_SECOND	extor/zky_cut/NLPIR.h	78;"	d
+POINTER	include/UC_MD5.h	/^	typedef unsigned char* POINTER;$/;"	t	class:UC_MD5
+POS_MAP_NUMBER	extor/zky_cut/NLPIR.h	75;"	d
+POS_SIZE	extor/zky_cut/NLPIR.h	80;"	d
+POS_Weight	extor/include/ext_common_def.h	/^typedef struct POS_Weight$/;"	s
+PRINTF	extor/src/TF_word_extractor.cpp	478;"	d	file:
+PRINT_DEBUG_INFO	extor/include/ext_common_def.h	79;"	d
+PRINT_DEBUG_INFO	extor/include/ext_common_def.h	94;"	d
+PRINT_DEBUG_INFO	include/common_def.h	70;"	d
+PRINT_DEBUG_INFO	include/common_def.h	85;"	d
+PTTF	include/WFPub.h	40;"	d
+PTTF	include/WFPub.h	42;"	d
+PTTF	include/WFPub.h	57;"	d
+PopData	include/UT_Queue.h	/^	T_Key PopData()$/;"	f	class:UT_Queue
+PopData_NB	include/UT_Queue.h	/^	var_4 PopData_NB(T_Key& tKey)$/;"	f	class:UT_Queue
+PreTravelKey	include/UT_HashSearch.h	/^	var_4 PreTravelKey()$/;"	f	class:UT_HashSearch
+PushData	include/UT_Queue.h	/^	void PushData(T_Key tKey)$/;"	f	class:UT_Queue
+PushData_NB	include/UT_Queue.h	/^	var_4 PushData_NB(T_Key tKey)$/;"	f	class:UT_Queue
+QuitWithEnter	include/WFPub.h	/^static int QuitWithEnter()$/;"	f	namespace:nsWFPub
+RESET_FLAG	extor/include/ext_common_def.h	14;"	d
+RET_ERROR_INVALID_PARAM	extor/include/ext_common_def.h	67;"	d
+RET_ERROR_INVALID_PARAM	include/common_def.h	58;"	d
+RET_FALSE	extor/include/ext_common_def.h	65;"	d
+RET_FALSE	include/common_def.h	56;"	d
+RET_NO_ENOUGH_MEMORY	extor/include/ext_common_def.h	68;"	d
+RET_NO_ENOUGH_MEMORY	include/common_def.h	59;"	d
+RET_SECCEED	extor/include/ext_common_def.h	66;"	d
+RET_SECCEED	include/common_def.h	57;"	d
+ROTATE_LEFT	include/UC_MD5.h	51;"	d
+RemoveFromQueueByData	include/WFQueue.h	/^    int RemoveFromQueueByData(DataType *pData)$/;"	f	class:nsWFQueue::CCheckTimeoutList
+RemoveFromQueueByData	include/WFQueue.h	/^    int RemoveFromQueueByData(int iPriority, void *pData, size_t DataLen)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+RemoveFromQueueByData	include/WFQueue.h	/^    int RemoveFromQueueByData(void *pData, size_t DataLen)$/;"	f	class:nsWFQueue::CBlockListQueue
+Reset	include/WFMem.h	/^    void Reset()$/;"	f	class:nsWFMem::CBlockMemory
+Reset	include/WFMem.h	/^    void Reset()$/;"	f	class:nsWFMem::CReuseMemory
+ResetAllocator	include/UC_Allocator_Recycle.h	/^	void ResetAllocator()$/;"	f	class:UC_Allocator_Recycle
+ResetAllocator	include/UT_Allocator.h	/^	var_8 ResetAllocator()$/;"	f	class:UT_Allocator
+ResetQueue	include/UT_Queue.h	/^	void ResetQueue()$/;"	f	class:UT_Queue
+ReverseStr	include/WFPub.h	/^static void ReverseStr(const void *pSrc, size_t SrcLen, void *pDest)$/;"	f	namespace:nsWFPub
+ReverseStr	include/WFPub.h	/^static void ReverseStr(void *pSrc, size_t SrcLen)$/;"	f	namespace:nsWFPub
+S11	include/UC_MD5.h	27;"	d
+S12	include/UC_MD5.h	28;"	d
+S13	include/UC_MD5.h	29;"	d
+S14	include/UC_MD5.h	30;"	d
+S21	include/UC_MD5.h	31;"	d
+S22	include/UC_MD5.h	32;"	d
+S23	include/UC_MD5.h	33;"	d
+S24	include/UC_MD5.h	34;"	d
+S31	include/UC_MD5.h	35;"	d
+S32	include/UC_MD5.h	36;"	d
+S33	include/UC_MD5.h	37;"	d
+S34	include/UC_MD5.h	38;"	d
+S41	include/UC_MD5.h	39;"	d
+S42	include/UC_MD5.h	40;"	d
+S43	include/UC_MD5.h	41;"	d
+S44	include/UC_MD5.h	42;"	d
+SDataBlockMeta	include/WFMem.h	/^    struct SDataBlockMeta $/;"	s	class:nsWFMem::CFreeByTimeMemory
+SET_FLAG	extor/include/ext_common_def.h	12;"	d
+SNode	include/WFQueue.h	/^    struct SNode $/;"	s	class:nsWFQueue::CCheckTimeoutList
+SOCKET_VER	include/common_def.h	12;"	d
+SOCKET_VER_LEN	include/common_def.h	13;"	d
+SORT_INFO	doc_storage/UT_Sort.h	/^	struct SORT_INFO$/;"	s	class:UT_Parallel_QS
+SPeriodHead	include/WFMem.h	/^    struct SPeriodHead $/;"	s	class:nsWFMem::CFreeByTimeMemory
+SRCS	Makefile	/^SRCS = $(wildcard $(DIR_SRC)\/*.cpp)$/;"	m
+SRCS	extor/Makefile	/^SRCS = $(wildcard $(DIR_SRC)\/*.cpp)$/;"	m
+SThreadInfo	include/WFMonitor.h	/^    struct SThreadInfo $/;"	s	class:nsWFMonitor::CMonitor
+SUBDIRS	Makefile	/^SUBDIRS = .\/extor$/;"	m
+SaveHashSearch	include/UT_HashSearch.h	/^	var_4 SaveHashSearch(var_1* filename)$/;"	f	class:UT_HashSearch
+SearchKey_FL	include/UT_HashSearch.h	/^	var_4 SearchKey_FL(T_Key tKey, var_vd** vppRetBuf = NULL)$/;"	f	class:UT_HashSearch
+SearchKey_VL	include/UT_HashSearch.h	/^	var_4 SearchKey_VL(T_Key tKey, var_vd** vppRetBuf, var_8* lpRetDataLen)$/;"	f	class:UT_HashSearch
+SetTimeout	include/WFSocket.h	/^    int SetTimeout(sock_descriptor sock, int iRecvTimeout, int iSendTimeout)$/;"	f	class:nsWFSocket::CSock
+SleepMicroSecond	include/WFPub.h	/^static void SleepMicroSecond(size_t microsecond)$/;"	f	namespace:nsWFPub
+SleepMilliSecond	include/WFPub.h	/^static void SleepMilliSecond(size_t millisecond)$/;"	f	namespace:nsWFPub
+SleepSecond	include/WFPub.h	/^static void SleepSecond(size_t second)$/;"	f	namespace:nsWFPub
+StartThread	include/WFThread.h	/^    int StartThread(void (*ThreadFunc)(void*), void *pParam = NULL, size_t ThreadCount = 1)$/;"	f	class:nsWFThread::CThread
+Startup	include/WFMonitor.h	/^    int Startup(int iMaxThreadCount, int iMonitorPort, int iMaxOutTime, const char *pLogDir = NULL)$/;"	f	class:nsWFMonitor::CMonitor
+Startup	include/WFSocket.h	/^    int Startup(uint16_t u16Port, size_t MaxAcceptQueueLen = 64, char *pIP = NULL)$/;"	f	class:nsWFSocket::CTcpServer
+StriCmp	include/WFPub.h	/^static int StriCmp(const char *pStr1, const char *pStr2)$/;"	f	namespace:nsWFPub
+StriStr	include/WFPub.h	/^static char *StriStr(const char *pSrc, const char *pPtn)$/;"	f	namespace:nsWFPub
+StrniCmp	include/WFPub.h	/^static int StrniCmp(const char *pStr1, const char *pStr2, size_t StrLen)$/;"	f	namespace:nsWFPub
+TARGET	Makefile	/^TARGET  = event_manager$/;"	m
+TEST_FLAG	extor/include/ext_common_def.h	13;"	d
+TEXT_TAG_NAME	include/common_def.h	30;"	d
+TF_EXTRACTOR	extor/include/word_extractor_API.h	24;"	d
+TF_word_extractor	extor/include/TF_word_extractor.h	/^class TF_word_extractor : public base_word_extractor$/;"	c
+TF_word_extractor	extor/src/TF_word_extractor.cpp	/^TF_word_extractor::TF_word_extractor()$/;"	f	class:TF_word_extractor
+TIME_TAG_BEG	include/common_def.h	19;"	d
+TIME_TAG_BEG_LEN	include/common_def.h	21;"	d
+TIME_TAG_NAME	include/common_def.h	20;"	d
+TITLE_TAG_NAME	include/common_def.h	29;"	d
+TYPE_MONITOR	include/WFMonitor.h	/^        TYPE_MONITOR,   \/\/monitor错误$/;"	e	enum:nsWFMonitor::CMonitor::ErrorType
+TYPE_MONITOR	src/event_manager.cpp	/^	TYPE_MONITOR,   \/\/monitor错误$/;"	e	enum:ErrorType	file:
+TYPE_NETWORK	include/WFMonitor.h	/^        TYPE_NETWORK,   \/\/网络故障$/;"	e	enum:nsWFMonitor::CMonitor::ErrorType
+TYPE_NETWORK	src/event_manager.cpp	/^	TYPE_NETWORK,   \/\/网络故障$/;"	e	enum:ErrorType	file:
+TYPE_OK	include/WFMonitor.h	/^        TYPE_OK = 0,    \/\/运行正常$/;"	e	enum:nsWFMonitor::CMonitor::ErrorType
+TYPE_OK	src/event_manager.cpp	/^	TYPE_OK = 0,	\/\/运行正常$/;"	e	enum:ErrorType	file:
+TYPE_OTHER	include/WFMonitor.h	/^        TYPE_OTHER,     \/\/其它错误$/;"	e	enum:nsWFMonitor::CMonitor::ErrorType
+TYPE_OTHER	src/event_manager.cpp	/^	TYPE_OTHER,	 \/\/其它错误$/;"	e	enum:ErrorType	file:
+TYPE_SERVICE	include/WFMonitor.h	/^        TYPE_SERVICE,   \/\/服务错误$/;"	e	enum:nsWFMonitor::CMonitor::ErrorType
+TYPE_SERVICE	src/event_manager.cpp	/^	TYPE_SERVICE,   \/\/服务错误$/;"	e	enum:ErrorType	file:
+TravelKey	include/UT_HashSearch.h	/^	var_4 TravelKey(T_Key& trKey, var_vd*& vprRetBuf, var_4& lDataLen)$/;"	f	class:UT_HashSearch
+TryFlushingData	include/WFLog.h	/^    void TryFlushingData()$/;"	f	class:nsWFLog::CDailyLog
+TryLPrintf	include/WFLog.h	/^    void TryLPrintf(const char *pDir, bool bConsoleShow, const char *pFormat, ...)$/;"	f	class:nsWFLog::CTrySaveLog
+TryLPrintfKernel	include/WFLog.h	/^    void TryLPrintfKernel(const char *pDir, bool bConsoleShow, const char *pFormat, va_list ap)$/;"	f	class:nsWFLog::CTrySaveLog
+TryOpenFile	include/WFPub.h	/^static int TryOpenFile(FILE *&fp, const char *pFile, const char *pMode, int iMaxTryCount = -1)$/;"	f	namespace:nsWFPub
+TryRemoveFile	include/WFPub.h	/^static int TryRemoveFile(const char *pFile, int iMaxTryCount = -1)$/;"	f	namespace:nsWFPub
+TryRenameFile	include/WFPub.h	/^static int TryRenameFile(const char *pSrcFile, const char *pDestFile, int iMaxTryCount = -1)$/;"	f	namespace:nsWFPub
+TrySaveLPrintf	include/WFLog.h	/^    void TrySaveLPrintf(const char *pFormat, ...)$/;"	f	class:nsWFLog::CTrySaveLog
+TryShowLPrintf	include/WFLog.h	/^    void TryShowLPrintf(const char *pFormat, ...)$/;"	f	class:nsWFLog::CTrySaveLog
+UCRCF_COMMENT_1	include/UC_ReadConfigFile.h	11;"	d
+UCRCF_COMMENT_2	include/UC_ReadConfigFile.h	12;"	d
+UCRCF_SM_1	include/UC_ReadConfigFile.h	8;"	d
+UCRCF_SM_2	include/UC_ReadConfigFile.h	9;"	d
+UC_Allocator_Recycle	include/UC_Allocator_Recycle.h	/^	UC_Allocator_Recycle()$/;"	f	class:UC_Allocator_Recycle
+UC_Allocator_Recycle	include/UC_Allocator_Recycle.h	/^class UC_Allocator_Recycle$/;"	c
+UC_DiskQuotaManager	doc_storage/UC_DiskQuotaManager.h	/^class UC_DiskQuotaManager$/;"	c
+UC_MD5	include/UC_MD5.h	/^	UC_MD5()$/;"	f	class:UC_MD5
+UC_MD5	include/UC_MD5.h	/^class UC_MD5$/;"	c
+UC_ReadConfigFile	include/UC_ReadConfigFile.h	/^	UC_ReadConfigFile()$/;"	f	class:UC_ReadConfigFile
+UC_ReadConfigFile	include/UC_ReadConfigFile.h	/^class UC_ReadConfigFile$/;"	c
+UINT2	include/UC_MD5.h	/^	typedef unsigned short UINT2;$/;"	t	class:UC_MD5
+UINT4	include/UC_MD5.h	/^	typedef unsigned int UINT4;$/;"	t	class:UC_MD5
+UINT8	include/UC_MD5.h	/^		typedef unsigned __int64 UINT8;$/;"	t	class:UC_MD5
+UINT8	include/UC_MD5.h	/^		typedef unsigned long long UINT8;$/;"	t	class:UC_MD5
+USE_MFS	include/WFPub.h	15;"	d
+UTF8_CODE	extor/zky_cut/NLPIR.h	93;"	d
+UT_Allocator	include/UT_Allocator.h	/^	UT_Allocator(var_8 lMaxBlockNum = DEFAULTMAXBLOCKNUM, var_8 lMaxBlockLen = DEFAULTMAXBLOCKLEN)$/;"	f	class:UT_Allocator
+UT_Allocator	include/UT_Allocator.h	/^class UT_Allocator$/;"	c
+UT_HASH_TABLE_PRO_TRAVEL_INFO	include/UT_HashTable_Pro.h	/^} UT_HASH_TABLE_PRO_TRAVEL_INFO;$/;"	t	typeref:struct:_UT_Hash_Table_Pro_Travel_Info_
+UT_HashSearch	include/UT_HashSearch.h	/^	UT_HashSearch()$/;"	f	class:UT_HashSearch
+UT_HashSearch	include/UT_HashSearch.h	/^class UT_HashSearch$/;"	c
+UT_HashTable_Pro	include/UT_HashTable_Pro.h	/^	UT_HashTable_Pro()$/;"	f	class:UT_HashTable_Pro
+UT_HashTable_Pro	include/UT_HashTable_Pro.h	/^class UT_HashTable_Pro$/;"	c
+UT_Parallel_QS	doc_storage/UT_Sort.h	/^class UT_Parallel_QS$/;"	c
+UT_Persistent_KeyValue	doc_storage/UT_Persistent_KeyValue.h	/^class UT_Persistent_KeyValue$/;"	c
+UT_Persistent_KeyValue_config	doc_storage/UT_Persistent_KeyValue.h	/^}UT_Persistent_KeyValue_config;$/;"	t	typeref:struct:tag_UT_Persistent_KeyValue_config
+UT_Queue	include/UT_Queue.h	/^	UT_Queue()$/;"	f	class:UT_Queue
+UT_Queue	include/UT_Queue.h	/^class UT_Queue$/;"	c
+UnLock	include/WFLock.h	/^        void UnLock() $/;"	f	class:nsWFLock::CLock
+UpdateStatus	include/WFMonitor.h	188;"	d
+WE_EXTR	extor/include/ext_common_def.h	10;"	d
+WE_init	extor/include/ext_common_def.h	9;"	d
+WF_INT_H	include/WFInt.h	2;"	d
+WF_LOCK_H	include/WFLock.h	3;"	d
+WF_LOG_H	include/WFLog.h	3;"	d
+WF_MEM_H	include/WFMem.h	3;"	d
+WF_MONITOR_H	include/WFMonitor.h	2;"	d
+WF_PUB_H	include/WFPub.h	3;"	d
+WF_QUEUE_H	include/WFQueue.h	3;"	d
+WF_SOCKET_H	include/WFSocket.h	3;"	d
+WF_THREAD_H	include/WFThread.h	3;"	d
+WIN32_LEAN_AND_MEAN	include/WFLock.h	17;"	d
+WIN32_LEAN_AND_MEAN	include/WFPub.h	29;"	d
+WIN32_LEAN_AND_MEAN	include/WFThread.h	16;"	d
+WINDOWS_PLATFORM	include/WFInt.h	5;"	d
+WINDOWS_PLATFORM	include/WFInt.h	9;"	d
+WINDOWS_PLATFORM	include/WFLock.h	13;"	d
+WINDOWS_PLATFORM	include/WFLock.h	9;"	d
+WINDOWS_PLATFORM	include/WFPub.h	18;"	d
+WINDOWS_PLATFORM	include/WFPub.h	23;"	d
+WINDOWS_PLATFORM	include/WFSocket.h	13;"	d
+WINDOWS_PLATFORM	include/WFSocket.h	17;"	d
+WINDOWS_PLATFORM	include/WFThread.h	12;"	d
+WINDOWS_PLATFORM	include/WFThread.h	8;"	d
+WT_ALL	extor/include/ext_common_def.h	40;"	d
+WT_NAME	extor/include/ext_common_def.h	41;"	d
+WT_NOUN	extor/include/ext_common_def.h	42;"	d
+WT_OTHR	extor/include/ext_common_def.h	44;"	d
+WT_VERB	extor/include/ext_common_def.h	43;"	d
+WaitForQuit	include/WFThread.h	/^    int WaitForQuit()$/;"	f	class:nsWFThread::CThread
+ZKY_EXTRACTOR	extor/include/word_extractor_API.h	27;"	d
+_DEBUG_P	extor/include/ext_common_def.h	77;"	d
+_DEBUG_P	include/common_def.h	68;"	d
+_LINUX_ENV_	include/UH_Define.h	14;"	d
+_MACOS_ENV_	include/UH_Define.h	19;"	d
+_SYSTEM_X64_	include/UH_Define.h	15;"	d
+_SYSTEM_X86_	include/UH_Define.h	10;"	d
+_UC_ALLOCATOR_RECYCLE_H_	include/UC_Allocator_Recycle.h	4;"	d
+_UC_DISKQUOTAMANAGER_H_	doc_storage/UC_DiskQuotaManager.h	10;"	d
+_UC_MD5_H_	include/UC_MD5.h	4;"	d
+_UC_READ_CONFIG_FILE_H_	include/UC_ReadConfigFile.h	4;"	d
+_UH_DEFINE_H_	include/UH_Define.h	4;"	d
+_UT_ALLOCATOR_H_	include/UT_Allocator.h	4;"	d
+_UT_HASH_SEARCH_H_	include/UT_HashSearch.h	4;"	d
+_UT_Hash_Table_Pro_Travel_Info_	include/UT_HashTable_Pro.h	/^typedef struct _UT_Hash_Table_Pro_Travel_Info_$/;"	s
+_UT_QUEUE_EVENT_H_	include/UT_Queue.h	4;"	d
+_UT_SORT_H_	doc_storage/UT_Sort.h	4;"	d
+_UpdateStatus	include/WFMonitor.h	/^    int _UpdateStatus(int iMonitorID, int iThreadID, int iLineNum)$/;"	f	class:nsWFMonitor::CMonitor
+_WIN32_ENV_	include/UH_Define.h	9;"	d
+__BASE_SHARE_CONTAINER_H_	extor/include/base_share_container.h	2;"	d
+__BASE_WORD_EXTRACTOR_H_	extor/include/base_word_extractor.h	2;"	d
+__CE_WORD_EXTRACTOR_H_	extor/include/CE_word_extractor.h	2;"	d
+__DOC_INFER_H_	src/doc_infer.h	2;"	d
+__EVENT_CONTAINER_H_	src/event_container.h	2;"	d
+__EVENT_INFER_H_	src/event_infer.h	2;"	d
+__EVENT_MANAGER_H_	src/event_manager.h	2;"	d
+__GRAPH_WORD_EXTRACTOR_H_	extor/include/graph_word_extractor.h	2;"	d
+__NLPIR_2013_LIB_INCLUDED__	extor/zky_cut/NLPIR.h	22;"	d
+__TF_WORD_EXTRACTOR_H_	extor/include/TF_word_extractor.h	2;"	d
+__UT_HASH_TABLE_PRO_H__	include/UT_HashTable_Pro.h	4;"	d
+__UT_PERSISTENT_KEYVALUE_H__	doc_storage/UT_Persistent_KeyValue.h	10;"	d
+__WHL_LIST_H_	src/whl_list.h	2;"	d
+__WORD_EXTRACTOR_API_H_	extor/include/word_extractor_API.h	2;"	d
+__WORD_IDF_CALCOR_H_	extor/include/word_IDF_calcor.h	2;"	d
+__ZKY_WORD_EXTRACTOR_H_	extor/include/zky_word_extractor.h	2;"	d
+___COMMON_DEF_H_	include/common_def.h	2;"	d
+___EVT_MGR_CONFER_H_	src/evt_mgr_confer.h	2;"	d
+___EXT_COMMON_DEF_H_	extor/include/ext_common_def.h	2;"	d
+___UTILITY_H_	include/utility.h	2;"	d
+_cp_memory_map_file_	include/UH_Define.h	/^	_cp_memory_map_file_()$/;"	f	struct:_cp_memory_map_file_
+_cp_memory_map_file_	include/UH_Define.h	/^typedef struct _cp_memory_map_file_$/;"	s
+_cp_stat_time_	include/UH_Define.h	/^typedef struct _cp_stat_time_$/;"	s
+_data_path	src/evt_mgr_confer.h	/^	var_1		_data_path[256];$/;"	m	class:evt_mgr_confer
+_doc_ID_tag_len	src/evt_mgr_confer.h	/^	var_u4		_doc_ID_tag_len;$/;"	m	class:evt_mgr_confer
+_doc_cnt	src/event_container.h	/^	var_u1 _doc_cnt;		\/\/ the number of docs belong to _einfer$/;"	m	struct:doc_evt_dst
+_einfer	src/event_container.h	/^	event_infer* _einfer;	\/\/ event$/;"	m	struct:doc_evt_dst
+_ext_key_num	src/evt_mgr_confer.h	/^	var_u4	  	_ext_key_num;$/;"	m	class:evt_mgr_confer
+_external_add_file	src/evt_mgr_confer.h	/^	var_1	  	_external_add_file[256];$/;"	m	class:evt_mgr_confer
+_external_del_file	src/evt_mgr_confer.h	/^	var_1	  	_external_del_file[256];$/;"	m	class:evt_mgr_confer
+_extor_cfg	src/evt_mgr_confer.h	/^	var_1	   	_extor_cfg[256];$/;"	m	class:evt_mgr_confer
+_feature_max_num	extor/include/base_word_extractor.h	/^    var_u2 _feature_max_num;$/;"	m	struct:tag_base_conf
+_init	extor/src/base_word_extractor.cpp	/^var_4 base_word_extractor::_init(UC_ReadConfigFile* _reader)$/;"	f	class:base_word_extractor
+_left	src/whl_list.h	/^    whl_node* _left;$/;"	m	struct:whl_node
+_load_list_file	src/evt_mgr_confer.h	/^	var_1	   	_load_list_file[256];$/;"	m	class:evt_mgr_confer
+_log_path	src/evt_mgr_confer.h	/^	var_1		_log_path[256];$/;"	m	class:evt_mgr_confer
+_max_doc_score	src/event_container.h	/^	var_f4 _max_doc_score;	\/\/ the max score of [this doc] and [one of docs belong to _einfer]$/;"	m	struct:doc_evt_dst
+_max_doc_size	src/evt_mgr_confer.h	/^	var_u4		_max_doc_size;$/;"	m	class:evt_mgr_confer
+_moniter_out_time	src/evt_mgr_confer.h	/^	var_u4		_moniter_out_time;$/;"	m	class:evt_mgr_confer
+_moniter_port	src/evt_mgr_confer.h	/^	var_u2		_moniter_port;$/;"	m	class:evt_mgr_confer
+_quick_sort	include/utility.h	/^var_vd _quick_sort(T* _term_infos, var_4 _low, var_4 _high, bool _cmp(const T&, const T&))$/;"	f
+_req_out_time	src/evt_mgr_confer.h	/^	var_u4		_req_out_time;$/;"	m	class:evt_mgr_confer
+_req_port	src/evt_mgr_confer.h	/^	var_u2		_req_port;$/;"	m	class:evt_mgr_confer
+_req_server_count	src/evt_mgr_confer.h	/^	var_u4		_req_server_count;$/;"	m	class:evt_mgr_confer
+_right	src/whl_list.h	/^    whl_node* _right;$/;"	m	struct:whl_node
+_score	src/event_container.h	/^	var_f4 _score;			\/\/ the score this doc belong to _einfer$/;"	m	struct:doc_evt_dst
+_self_cut	extor/include/base_word_extractor.h	/^    var_1 _self_cut : 1;        \/\/0-> 文本未切词，需系统自己切词$/;"	m	struct:tag_base_conf
+_swap	include/utility.h	/^inline var_vd _swap(T& lhs, T& rhs)$/;"	f
+_tag_ar_num	src/evt_mgr_confer.h	/^	var_u4		_tag_ar_num;$/;"	m	class:evt_mgr_confer
+_tag_cl_num	src/evt_mgr_confer.h	/^	var_u4		_tag_cl_num;$/;"	m	class:evt_mgr_confer
+_text_max_len	extor/include/base_word_extractor.h	/^    var_4 _text_max_len : 31;    \/\/ 正文截取最大长度$/;"	m	struct:tag_base_conf
+_tit_max_len	extor/include/base_word_extractor.h	/^    var_1 _tit_max_len : 6;     \/\/ 标题截取最大长度$/;"	m	struct:tag_base_conf
+_tit_weight	extor/include/base_word_extractor.h	/^    var_u1 _tit_weight;         \/\/ \/\/ 标题词在正文中出现时，所加的权重[0~255]（5代表相当于在正文中出现5次）$/;"	m	struct:tag_base_conf
+_trunc_text	extor/include/base_word_extractor.h	/^    var_4 _trunc_text : 1;      \/\/1-> 正文需截取$/;"	m	struct:tag_base_conf
+_trunc_tit	extor/include/base_word_extractor.h	/^    var_1 _trunc_tit : 1;       \/\/1-> 标题需截取$/;"	m	struct:tag_base_conf
+_uninit	extor/src/base_word_extractor.cpp	/^var_vd base_word_extractor::_uninit()$/;"	f	class:base_word_extractor
+_upd_out_time	src/evt_mgr_confer.h	/^	var_u4		_upd_out_time;$/;"	m	class:evt_mgr_confer
+_upd_port	src/evt_mgr_confer.h	/^	var_u2		_upd_port;$/;"	m	class:evt_mgr_confer
+_upd_process_count	src/evt_mgr_confer.h	/^	var_u2		_upd_process_count;$/;"	m	class:evt_mgr_confer
+_upd_queue_size	src/evt_mgr_confer.h	/^	var_u4		_upd_queue_size;  $/;"	m	class:evt_mgr_confer
+_val	src/whl_list.h	/^    T _val;$/;"	m	struct:whl_node
+_zky_data	extor/include/base_word_extractor.h	/^    var_1 _zky_data[256];$/;"	m	struct:tag_base_conf
+access	include/WFPub.h	34;"	d
+add	doc_storage/UT_Persistent_KeyValue.h	/^	var_4 add(T_Key key, var_vd* value, var_4 size)$/;"	f	class:UT_Persistent_KeyValue
+add	include/UT_HashTable_Pro.h	/^	var_4 add(T_Key key, var_vd* value = NULL, var_vd** const reference = NULL, var_4 is_overwrite = 0, var_4 is_lock = 1)$/;"	f	class:UT_HashTable_Pro
+add	src/whl_list.h	/^    var_4 add(T& _val)$/;"	f	class:whl_list
+add_doc	src/event_container.cpp	/^var_4 event_container::add_doc(doc_infer* _dinfer)$/;"	f	class:event_container
+add_nid	extor/src/base_share_container.cpp	/^var_4 base_share_container::add_nid(const var_u8 _NID)$/;"	f	class:base_share_container
+adjust	src/whl_list.h	/^    var_4 adjust(T& _val)$/;"	f	class:whl_list
+adjust_2_events	src/event_container.cpp	/^var_4 event_container::adjust_2_events(var_u8 _leid, var_u8 _reid)$/;"	f	class:event_container
+assign_word_type	extor/include/ext_common_def.h	/^inline var_4 assign_word_type(var_4& _WT, var_1* _tag)$/;"	f
+badcode	extor/include/ext_common_def.h	/^static bool badcode(const char* p)$/;"	f
+base_conf	extor/include/base_word_extractor.h	/^}base_conf, *pbase_conf;$/;"	t	typeref:struct:tag_base_conf
+base_share_container	extor/include/base_share_container.h	/^class base_share_container$/;"	c
+base_share_container	extor/src/base_share_container.cpp	/^base_share_container::base_share_container()$/;"	f	class:base_share_container
+base_word_extractor	extor/include/base_word_extractor.h	/^class base_word_extractor$/;"	c
+base_word_extractor	extor/src/base_word_extractor.cpp	/^base_word_extractor::base_word_extractor()$/;"	f	class:base_word_extractor
+beg	doc_storage/UT_Sort.h	/^		var_4 beg;$/;"	m	struct:UT_Parallel_QS::SORT_INFO
+block_alloc	src/event_manager.cpp	/^inline var_1* block_alloc(UC_Allocator_Recycle* _mem_pool)$/;"	f
+buffer	include/UC_MD5.h	/^		unsigned char buffer[64];  \/* input buffer *\/$/;"	m	struct:UC_MD5::__anon3
+calc_event_score	src/event_container.cpp	/^var_f4 event_container::calc_event_score($/;"	f	class:event_container
+calc_weight	extor/src/TF_word_extractor.cpp	/^var_4 TF_word_extractor::calc_weight(var_1* _doc_beg, var_1* _doc_end, var_u2 _factor)$/;"	f	class:TF_word_extractor
+calc_weight	extor/src/zky_word_extractor.cpp	/^var_4 zky_word_extractor::calc_weight(var_1* _doc_beg, var_u4 _doc_len)$/;"	f	class:zky_word_extractor
+catch_kill	include/UH_Define.h	/^static void catch_kill(var_vd (*func)(var_4))$/;"	f
+clear	include/UH_Define.h	/^	inline void clear()$/;"	f	struct:_cp_stat_time_
+clear	include/UT_HashTable_Pro.h	/^	var_4 clear()$/;"	f	class:UT_HashTable_Pro
+clear	src/event_manager.cpp	/^var_vd event_manager::clear()$/;"	f	class:event_manager
+clear	src/evt_mgr_confer.h	/^	var_vd clear()$/;"	f	class:evt_mgr_confer
+close_MMF	include/UH_Define.h	/^	var_4 close_MMF()$/;"	f	struct:_cp_memory_map_file_
+compare_key	doc_storage/UT_Sort.h	/^var_4 compare_key(T_Key_1& key_1_1, T_Key_1& key_1_2, T_Key_2& key_2_1, T_Key_2& key_2_2)$/;"	f
+compare_key	doc_storage/UT_Sort.h	/^var_4 compare_key(T_Key_1& key_1_1, T_Key_1& key_1_2, T_Key_2& key_2_1, T_Key_2& key_2_2, T_Key_3& key_3_1, T_Key_3& key_3_2)$/;"	f
+copy	src/doc_infer.cpp	/^var_4 doc_infer::copy(doc_infer* _dinfer)$/;"	f	class:doc_infer
+copy	src/event_infer.cpp	/^var_4 event_infer::copy(event_infer* _einfer)$/;"	f	class:event_infer
+count	include/UC_MD5.h	/^		UINT4 count[2];            \/* number of bits, modulo 2^64 (lsb first) *\/$/;"	m	struct:UC_MD5::__anon3
+cp_accept_socket	include/UH_Define.h	/^static var_4 cp_accept_socket(CP_SOCKET_T in_listen, CP_SOCKET_T& out_socket)$/;"	f
+cp_add_and_fetch	include/UH_Define.h	/^__inline var_u4 cp_add_and_fetch(var_u4* val)$/;"	f
+cp_add_and_fetch	include/UH_Define.h	/^__inline var_u8 cp_add_and_fetch(var_u8* val)$/;"	f
+cp_change_file_size	include/UH_Define.h	/^static var_4 cp_change_file_size(FILE* fp, off_t size)$/;"	f
+cp_change_file_size	include/UH_Define.h	/^static var_4 cp_change_file_size(FILE* fp, var_8 size)$/;"	f
+cp_clear_file	include/UH_Define.h	/^static var_4 cp_clear_file(var_1* org_file)$/;"	f
+cp_close_socket	include/UH_Define.h	1086;"	d
+cp_close_socket	include/UH_Define.h	1088;"	d
+cp_connect_socket	include/UH_Define.h	/^static var_4 cp_connect_socket(CP_SOCKET_T& in_socket, var_1* in_ip, var_u2 in_port)$/;"	f
+cp_create_dir	include/UH_Define.h	/^static var_4 cp_create_dir(var_1* dir)$/;"	f
+cp_create_thread	include/UH_Define.h	/^static var_4 cp_create_thread(LPTHREAD_START_ROUTINE in_function, void* in_argv)$/;"	f
+cp_create_thread	include/UH_Define.h	/^static var_4 cp_create_thread(void* (in_function)(void*), void* in_argv)$/;"	f
+cp_dio_alloc	include/UH_Define.h	/^static inline var_vd* cp_dio_alloc(size_t size)$/;"	f
+cp_dio_close	include/UH_Define.h	/^static inline var_4 cp_dio_close(var_4 fildes)$/;"	f
+cp_dio_free	include/UH_Define.h	/^static inline var_vd cp_dio_free(var_vd* memptr)$/;"	f
+cp_dio_open	include/UH_Define.h	/^static var_4 cp_dio_open(const var_1* name, const var_1* mode)$/;"	f
+cp_dio_read	include/UH_Define.h	/^static inline size_t cp_dio_read(var_4 fildes, var_vd* buf, size_t nbyte)$/;"	f
+cp_dio_seek	include/UH_Define.h	/^static inline off_t cp_dio_seek(var_4 fildes, off_t offset, var_4 whence)$/;"	f
+cp_dio_write	include/UH_Define.h	/^static inline size_t cp_dio_write(var_4 fildes, const var_vd* buf, size_t nbyte)$/;"	f
+cp_dir_close	include/UH_Define.h	/^static var_4 cp_dir_close(var_vd*& handle)$/;"	f
+cp_dir_open	include/UH_Define.h	/^static var_4 cp_dir_open(var_vd*& handle, const var_1* path_name)$/;"	f
+cp_dir_travel	include/UH_Define.h	/^static var_4 cp_dir_travel(var_vd* handle, var_1* file_name)$/;"	f
+cp_drop_useless_char	include/UH_Define.h	/^static var_4 cp_drop_useless_char(var_1* str_ptr)$/;"	f
+cp_drop_useless_char_url	include/UH_Define.h	/^static var_4 cp_drop_useless_char_url(var_1* str_ptr)$/;"	f
+cp_fix_file	include/UH_Define.h	/^static var_4 cp_fix_file(var_1* file, const var_1* end_flag, var_4 end_flag_len, var_8* fix_len = NULL)$/;"	f
+cp_generate_random	include/UH_Define.h	/^const var_vd cp_generate_random(T_Key* result, var_4 num)$/;"	f
+cp_get_file_size	include/UH_Define.h	/^static var_8 cp_get_file_size(var_1* in_file)$/;"	f
+cp_get_local_ip	include/UH_Define.h	/^static var_1* cp_get_local_ip()$/;"	f
+cp_get_uuid	include/UH_Define.h	/^static var_u8 cp_get_uuid()$/;"	f
+cp_init_socket	include/UH_Define.h	/^static var_4 cp_init_socket()$/;"	f
+cp_listen_socket	include/UH_Define.h	/^static var_4 cp_listen_socket(CP_SOCKET_T& in_listen, var_u2 in_port)$/;"	f
+cp_localtime	include/UH_Define.h	/^static struct tm* cp_localtime(time_t local_sec, struct tm* local_tm, var_4 time_zone = 8)$/;"	f
+cp_lock_dec	include/UH_Define.h	/^__inline void cp_lock_dec(var_u4* val)$/;"	f
+cp_lock_dec	include/UH_Define.h	/^__inline void cp_lock_dec(var_u8* val)$/;"	f
+cp_lock_file	include/UH_Define.h	/^static var_4 cp_lock_file(var_4 fd)$/;"	f
+cp_lock_file	include/UH_Define.h	/^static var_4 cp_lock_file(var_4 fd, var_2 type = F_RDLCK)$/;"	f
+cp_lock_inc	include/UH_Define.h	/^__inline void cp_lock_inc(var_u4* val)$/;"	f
+cp_lock_inc	include/UH_Define.h	/^__inline void cp_lock_inc(var_u8* val)$/;"	f
+cp_recovery_file	include/UH_Define.h	/^static var_4 cp_recovery_file(var_1* org_file)$/;"	f
+cp_recvbuf	include/UH_Define.h	/^static var_4 cp_recvbuf(CP_SOCKET_T in_socket, var_1* in_buffer, var_4 in_buflen)$/;"	f
+cp_recvbuf_onebyte	include/UH_Define.h	/^static var_4 cp_recvbuf_onebyte(CP_SOCKET_T in_socket, var_1 end_char, var_1* in_buffer, var_4& in_buflen)$/;"	f
+cp_recvbuf_twobyte	include/UH_Define.h	/^static var_4 cp_recvbuf_twobyte(CP_SOCKET_T in_socket, var_1 end_one, var_1 end_two, var_1* in_buffer, var_4& in_buflen)$/;"	f
+cp_remove_file	include/UH_Define.h	/^static var_4 cp_remove_file(var_1* src_file)$/;"	f
+cp_rename_file	include/UH_Define.h	/^static var_4 cp_rename_file(var_1* src_file, var_1* des_file)$/;"	f
+cp_sendbuf	include/UH_Define.h	/^static var_4 cp_sendbuf(CP_SOCKET_T in_socket, var_1* in_buffer, var_4 in_buflen)$/;"	f
+cp_sendfile	include/UH_Define.h	/^static var_4 cp_sendfile(CP_SOCKET_T in_socket, var_1* in_file)$/;"	f
+cp_set_overtime	include/UH_Define.h	/^static var_4 cp_set_overtime(CP_SOCKET_T in_socket, var_4 in_time)$/;"	f
+cp_skip_useless_char	include/UH_Define.h	/^static var_4 cp_skip_useless_char(var_1* str, var_4 len, var_1*& beg, var_1*& end)$/;"	f
+cp_skip_useless_char_back	include/UH_Define.h	/^static var_1* cp_skip_useless_char_back(var_1* str, var_4 len)$/;"	f
+cp_skip_useless_char_front	include/UH_Define.h	/^static var_1* cp_skip_useless_char_front(var_1* str, var_4 len)$/;"	f
+cp_sleep	include/UH_Define.h	221;"	d
+cp_sleep	include/UH_Define.h	224;"	d
+cp_sleep_s	include/UH_Define.h	222;"	d
+cp_sleep_s	include/UH_Define.h	225;"	d
+cp_strncasecmp	include/UH_Define.h	/^static var_4 cp_strncasecmp(const var_1* s1, const var_1* s2, size_t n)$/;"	f
+cp_strnicmp	include/UH_Define.h	/^static var_4 cp_strnicmp(const var_1* s1, const var_1* s2, size_t n)$/;"	f
+cp_strtoval_64	include/UH_Define.h	631;"	d
+cp_strtoval_64	include/UH_Define.h	634;"	d
+cp_strtoval_64	include/UH_Define.h	639;"	d
+cp_strtoval_u64	include/UH_Define.h	630;"	d
+cp_strtoval_u64	include/UH_Define.h	633;"	d
+cp_strtoval_u64	include/UH_Define.h	638;"	d
+cp_sub_and_fetch	include/UH_Define.h	/^__inline var_u4 cp_sub_and_fetch(var_u4* val)$/;"	f
+cp_sub_and_fetch	include/UH_Define.h	/^__inline var_u8 cp_sub_and_fetch(var_u8* val)$/;"	f
+cp_swap_file	include/UH_Define.h	/^static var_4 cp_swap_file(var_1* new_file, var_1* org_file)$/;"	f
+cp_swap_file_nb	include/UH_Define.h	/^static var_4 cp_swap_file_nb(var_1* new_file, var_1* org_file)$/;"	f
+cp_unlock_file	include/UH_Define.h	/^static var_4 cp_unlock_file(var_4 fd)$/;"	f
+cp_unsegword	include/UH_Define.h	/^static var_4 cp_unsegword(var_1* in_buf, var_4 in_len, var_1* out_buf)$/;"	f
+cp_wait_dispose	include/UH_Define.h	/^static var_vd cp_wait_dispose()$/;"	f
+cp_warning_no_use	include/UH_Define.h	/^static var_vd cp_warning_no_use()$/;"	f
+create_new_event	src/event_container.cpp	/^var_4 event_container::create_new_event(doc_infer* _dinfer)$/;"	f	class:event_container
+data_qs	doc_storage/UT_Sort.h	/^	var_4 data_qs(var_4 begin, var_4 end, T_Key* key)$/;"	f	class:UT_Parallel_QS
+del	doc_storage/UT_Persistent_KeyValue.h	/^	var_4 del(T_Key key)$/;"	f	class:UT_Persistent_KeyValue
+del	include/UT_HashTable_Pro.h	/^	var_4 del(T_Key key, var_4 is_lock = 1)$/;"	f	class:UT_HashTable_Pro
+del	src/whl_list.h	/^    var_4 del(T& _val)$/;"	f	class:whl_list
+del_doc	src/event_container.cpp	/^var_4 event_container::del_doc(const var_u8 _did)$/;"	f	class:event_container
+deserialize	src/doc_infer.cpp	/^var_4 doc_infer::deserialize(FILE* _fh)$/;"	f	class:doc_infer
+deserialize	src/event_infer.cpp	/^var_4 event_infer::deserialize(FILE* _fh)$/;"	f	class:event_infer
+doc_evt_dst	src/event_container.h	/^struct doc_evt_dst$/;"	s
+doc_infer	src/doc_infer.cpp	/^doc_infer::doc_infer()$/;"	f	class:doc_infer
+doc_infer	src/doc_infer.h	/^class doc_infer$/;"	c
+doc_into_event	src/event_container.cpp	/^var_4 event_container::doc_into_event(doc_infer* _dinfer, const var_u8 _eid)$/;"	f	class:event_container
+dqm_clear	doc_storage/UC_DiskQuotaManager.h	/^	var_4 dqm_clear(var_4 in_sto_path_num, var_1** in_sto_path)$/;"	f	class:UC_DiskQuotaManager
+dqm_index2key	doc_storage/UC_DiskQuotaManager.h	/^	inline var_vd dqm_index2key(var_4 file_no, var_8 file_offset, var_u8& key)$/;"	f	class:UC_DiskQuotaManager
+dqm_init	doc_storage/UC_DiskQuotaManager.h	/^    var_4 dqm_init(var_4 in_sto_path_num, var_1** in_sto_path, var_4* in_sto_total_size, var_4 in_sto_one_size, var_4 in_max_write_size, var_4 in_max_read_handle_num, var_4 (*fun_judge)(var_4 file_no, var_8 file_offset, var_4& key_len, var_1*& key_buf, var_vd* argv), var_4 (*fun_update)(var_4 file_no, var_8 file_offset, var_4& key_len, var_1*& key_buf, var_vd* argv), var_vd* fun_argv = NULL, var_4 is_clear = 0)$/;"	f	class:UC_DiskQuotaManager
+dqm_key2index	doc_storage/UC_DiskQuotaManager.h	/^	inline var_vd dqm_key2index(var_4& file_no, var_8& file_offset, var_u8 key)$/;"	f	class:UC_DiskQuotaManager
+dqm_read_data	doc_storage/UC_DiskQuotaManager.h	/^	var_4 dqm_read_data(var_u8 in_key, var_4& io_one_buf_len, var_1* out_one_buf, var_4& io_two_buf_len, var_1* out_two_buf)$/;"	f	class:UC_DiskQuotaManager
+dqm_read_data	doc_storage/UC_DiskQuotaManager.h	/^    var_4 dqm_read_data(var_4 in_file_no, var_8 in_file_offset, var_4& io_one_buf_len, var_1* out_one_buf, var_4& io_two_buf_len, var_1* out_two_buf)$/;"	f	class:UC_DiskQuotaManager
+dqm_start_trim	doc_storage/UC_DiskQuotaManager.h	/^    var_4 dqm_start_trim()$/;"	f	class:UC_DiskQuotaManager
+dqm_write_data	doc_storage/UC_DiskQuotaManager.h	/^	var_4 dqm_write_data(var_u8& out_key, var_4 in_one_buf_len, var_1* in_one_buf, var_4 in_two_buf_len = 0, var_1* in_two_buf = NULL)$/;"	f	class:UC_DiskQuotaManager
+dqm_write_data	doc_storage/UC_DiskQuotaManager.h	/^    var_4 dqm_write_data(var_4& out_file_no, var_8& out_file_offset, var_4 in_one_buf_len, var_1* in_one_buf, var_4 in_two_buf_len = 0, var_1* in_two_buf = NULL)$/;"	f	class:UC_DiskQuotaManager
+dwTime_1	include/UH_Define.h	/^	DWORD dwTime_1, dwTime_2;$/;"	m	struct:_cp_stat_time_
+dwTime_2	include/UH_Define.h	/^	DWORD dwTime_1, dwTime_2;$/;"	m	struct:_cp_stat_time_
+end	doc_storage/UT_Sort.h	/^		var_4 end;$/;"	m	struct:UT_Parallel_QS::SORT_INFO
+event_container	src/event_container.cpp	/^event_container::event_container()$/;"	f	class:event_container
+event_container	src/event_container.h	/^class event_container$/;"	c
+event_infer	src/event_infer.cpp	/^event_infer::event_infer()$/;"	f	class:event_infer
+event_infer	src/event_infer.h	/^class event_infer$/;"	c
+event_manager	src/event_manager.cpp	/^event_manager::event_manager()$/;"	f	class:event_manager
+event_manager	src/event_manager.h	/^class event_manager$/;"	c
+evt_mgr_confer	src/evt_mgr_confer.h	/^	evt_mgr_confer()$/;"	f	class:evt_mgr_confer
+evt_mgr_confer	src/evt_mgr_confer.h	/^class evt_mgr_confer$/;"	c
+exist_nid	extor/src/base_share_container.cpp	/^var_4 base_share_container::exist_nid(const var_u8 _NID)$/;"	f	class:base_share_container
+extract	extor/src/CE_word_extractor.cpp	/^var_4 CE_word_extractor::extract($/;"	f	class:CE_word_extractor
+extract	extor/src/TF_word_extractor.cpp	/^var_4 TF_word_extractor::extract($/;"	f	class:TF_word_extractor
+extract	extor/src/graph_word_extractor.cpp	/^var_4 graph_word_extractor::extract($/;"	f	class:graph_word_extractor
+extract	extor/src/zky_word_extractor.cpp	/^var_4 zky_word_extractor::extract($/;"	f	class:zky_word_extractor
+extract_key_word	src/event_manager.cpp	/^var_4 event_manager::extract_key_word(base_word_extractor* _extor, doc_infer* _dinfer)$/;"	f	class:event_manager
+feature_cmp	extor/src/TF_word_extractor.cpp	/^static bool feature_cmp(const term_info_st& lhs, const term_info_st& rhs)$/;"	f	file:
+flg	doc_storage/UT_Sort.h	/^		var_4 flg;$/;"	m	struct:UT_Parallel_QS::ORG_INFO
+free_dict_handle	extor/include/word_extractor_API.h	38;"	d
+free_extor_dict_handle	extor/src/word_extractor_API.cpp	/^var_vd free_extor_dict_handle(var_vd* _dict_handle, base_word_extractor* _extor_handle)$/;"	f
+free_extor_handle	extor/include/word_extractor_API.h	39;"	d
+fun_judge	doc_storage/UT_Persistent_KeyValue.h	/^	static var_4 fun_judge(var_4 file_no, var_8 file_offset, var_4& key_len, var_1*& key_buf, var_vd* argv)$/;"	f	class:UT_Persistent_KeyValue
+fun_update	doc_storage/UT_Persistent_KeyValue.h	/^	static var_4 fun_update(var_4 file_no, var_8 file_offset, var_4& key_len, var_1*& key_buf, var_vd* argv)$/;"	f	class:UT_Persistent_KeyValue
+get_IDF	extor/src/base_share_container.cpp	/^var_f4 base_share_container::get_IDF(var_u8 _word_id)$/;"	f	class:base_share_container
+get_IDF	extor/src/word_IDF_calcor.cpp	/^var_f4 word_IDF_calcor::get_IDF(var_u8 _word_id)$/;"	f	class:word_IDF_calcor
+get_count	extor/src/CE_word_extractor.cpp	/^var_4 CE_word_extractor::get_count($/;"	f	class:CE_word_extractor
+get_count	extor/src/TF_word_extractor.cpp	/^var_4 TF_word_extractor::get_count($/;"	f	class:TF_word_extractor
+get_count	extor/src/graph_word_extractor.cpp	/^var_4 graph_word_extractor::get_count($/;"	f	class:graph_word_extractor
+get_count	extor/src/zky_word_extractor.cpp	/^var_4 zky_word_extractor::get_count($/;"	f	class:zky_word_extractor
+get_dict_handle	extor/src/word_extractor_API.cpp	/^var_vd* get_dict_handle(var_1* _cfg_path)$/;"	f
+get_error_description	extor/src/CE_word_extractor.cpp	/^var_1* CE_word_extractor::get_error_description($/;"	f	class:CE_word_extractor
+get_error_description	extor/src/TF_word_extractor.cpp	/^var_1* TF_word_extractor::get_error_description($/;"	f	class:TF_word_extractor
+get_error_description	extor/src/graph_word_extractor.cpp	/^var_1* graph_word_extractor::get_error_description($/;"	f	class:graph_word_extractor
+get_error_description	extor/src/zky_word_extractor.cpp	/^var_1* zky_word_extractor::get_error_description($/;"	f	class:zky_word_extractor
+get_extor_handle	extor/src/word_extractor_API.cpp	/^base_word_extractor* get_extor_handle(var_1* _cfg_path, var_4 _WE_type, var_vd* _dict_handle \/*= NULL*\/)$/;"	f
+get_process_id	include/UH_Define.h	/^static var_4 get_process_id(var_1* process_name)$/;"	f
+get_tag	include/utility.h	/^static var_4 get_tag(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_1 *tag_value, var_1 if_cdata)$/;"	f
+get_term	extor/src/CE_word_extractor.cpp	/^var_4 CE_word_extractor::get_term($/;"	f	class:CE_word_extractor
+get_term	extor/src/TF_word_extractor.cpp	/^var_4 TF_word_extractor::get_term($/;"	f	class:TF_word_extractor
+get_term	extor/src/graph_word_extractor.cpp	/^var_4 graph_word_extractor::get_term($/;"	f	class:graph_word_extractor
+get_term	extor/src/zky_word_extractor.cpp	/^var_4 zky_word_extractor::get_term($/;"	f	class:zky_word_extractor
+get_time	include/UH_Define.h	/^	static var_4 get_time()$/;"	f	struct:_cp_stat_time_
+get_time	include/UH_Define.h	/^	static var_8 get_time()$/;"	f	struct:_cp_stat_time_
+get_time_ms	include/UH_Define.h	/^	inline var_4 get_time_ms()$/;"	f	struct:_cp_stat_time_
+get_time_s	include/UH_Define.h	/^	inline var_4 get_time_s()$/;"	f	struct:_cp_stat_time_
+get_time_us	include/UH_Define.h	/^	inline var_4 get_time_us()$/;"	f	struct:_cp_stat_time_
+get_weight	extor/src/base_share_container.cpp	/^var_4 base_share_container::get_weight(var_u8 tag_id)$/;"	f	class:base_share_container
+get_xml_tag	include/utility.h	/^static var_4 get_xml_tag(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_1 *tag_value, var_1 if_cdata)$/;"	f
+get_xml_tag	include/utility.h	/^static var_4 get_xml_tag(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_4 &tag_value, var_1 if_cdata)$/;"	f
+get_xml_tag	include/utility.h	/^static var_4 get_xml_tag(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_u4 &tag_value, var_1 if_cdata)$/;"	f
+get_xml_tag	include/utility.h	/^static var_4 get_xml_tag(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_u8 &tag_value, var_1 if_cdata)$/;"	f
+graph_word_extractor	extor/include/graph_word_extractor.h	/^class graph_word_extractor : public base_word_extractor$/;"	c
+graph_word_extractor	extor/src/graph_word_extractor.cpp	/^graph_word_extractor::graph_word_extractor()$/;"	f	class:graph_word_extractor
+iLineNum	include/WFMonitor.h	/^        int iLineNum;$/;"	m	struct:nsWFMonitor::CMonitor::SThreadInfo
+iPOS	extor/zky_cut/NLPIR.h	/^  int	iPOS;\/\/词性标注的编号$/;"	m	struct:result_t
+iThreadID	include/WFMonitor.h	/^        int iThreadID;$/;"	m	struct:nsWFMonitor::CMonitor::SThreadInfo
+idf	extor/include/ext_common_def.h	/^	var_f4 idf;$/;"	m	struct:tag_term_info_st
+idx_path	doc_storage/UT_Persistent_KeyValue.h	/^    var_1 idx_path[256];$/;"	m	struct:tag_UT_Persistent_KeyValue_config
+in_file	include/UH_Define.h	/^	HANDLE  in_file;$/;"	m	struct:_cp_memory_map_file_
+inc_totalDF	extor/include/word_IDF_calcor.h	/^    var_4 inc_totalDF()$/;"	f	class:word_IDF_calcor
+inc_totalDF	extor/src/base_share_container.cpp	/^var_4 base_share_container::inc_totalDF()$/;"	f	class:base_share_container
+init	doc_storage/UT_Persistent_KeyValue.h	/^	var_4 init(var_4 sto_path_num, var_1** sto_path, var_4* sto_total_size,$/;"	f	class:UT_Persistent_KeyValue
+init	doc_storage/UT_Persistent_KeyValue.h	/^    var_4 init(var_1* _config_path, var_4 is_clear)$/;"	f	class:UT_Persistent_KeyValue
+init	extor/src/CE_word_extractor.cpp	/^var_4 CE_word_extractor::init($/;"	f	class:CE_word_extractor
+init	extor/src/TF_word_extractor.cpp	/^var_4 TF_word_extractor::init($/;"	f	class:TF_word_extractor
+init	extor/src/base_share_container.cpp	/^var_4 base_share_container::init($/;"	f	class:base_share_container
+init	extor/src/graph_word_extractor.cpp	/^var_4 graph_word_extractor::init($/;"	f	class:graph_word_extractor
+init	extor/src/word_IDF_calcor.cpp	/^var_4 word_IDF_calcor::init($/;"	f	class:word_IDF_calcor
+init	extor/src/zky_word_extractor.cpp	/^var_4 zky_word_extractor::init($/;"	f	class:zky_word_extractor
+init	include/UT_HashTable_Pro.h	/^	var_4 init(var_8 table_size, var_u8 max_key_num = -1, var_4 store_size = 0, var_1* name_sto = NULL, var_1* name_inc = NULL, var_1* name_flg = NULL, var_4 is_delay_recycle = 0)$/;"	f	class:UT_HashTable_Pro
+init	src/event_manager.cpp	/^var_4 event_manager::init(const var_1* _conf_path, const var_4 _start_opt\/* = DEFAULT_START*\/)$/;"	f	class:event_manager
+init	src/whl_list.h	/^    var_4 init(var_4 (*_cmp)(T& _lhs, T& rhs), var_4 (*_eql)(T& _lhs, T& rhs), var_u4 _max_size, UC_Allocator_Recycle* _allocor = NULL)$/;"	f	class:whl_list
+initMem	include/UC_Allocator_Recycle.h	/^	var_4 initMem(var_8 lBlockSize\/* 每块buf大小 *\/, var_8 lMaxBlockNum = 0\/* 最大buf块数 *\/, var_8 lPerAllocBlockNum = 0\/* 每段"buffer段"buf块数 *\/)$/;"	f	class:UC_Allocator_Recycle
+init_qs	doc_storage/UT_Sort.h	/^	var_4 init_qs(var_4 threshold_normal = 1000, var_4 list_size = 100000, var_4 thread_num = 10)$/;"	f	class:UT_Parallel_QS
+int16_t	include/WFInt.h	/^    typedef __int16           int16_t;$/;"	t
+int32_t	include/WFInt.h	/^    typedef __int32           int32_t;$/;"	t
+int64_t	include/WFInt.h	/^    typedef __int64           int64_t;$/;"	t
+int8_t	include/WFInt.h	/^    typedef __int8            int8_t;$/;"	t
+ioctlsocket	include/WFSocket.h	42;"	d
+is_delete	include/UT_HashTable_Pro.h	/^	var_4  is_delete;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+is_dynamic	include/UT_HashTable_Pro.h	/^	var_4  is_dynamic;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+is_lock	include/UT_HashTable_Pro.h	/^	var_4  is_lock;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+key	doc_storage/UT_Sort.h	/^		T_Key* key;$/;"	m	struct:UT_Parallel_QS::ORG_INFO
+left	include/utility.h	/^    T1 left;$/;"	m	struct:simple_pair
+len_start_space	extor/include/ext_common_def.h	/^inline var_u8 len_start_space(const var_1* line)$/;"	f
+length	extor/zky_cut/NLPIR.h	/^  int length; \/\/length,词语的长度$/;"	m	struct:result_t
+load	include/UT_HashTable_Pro.h	/^	var_4 load(var_1* library_file, var_4 is_lock = 1)$/;"	f	class:UT_HashTable_Pro
+load_data	src/event_manager.cpp	/^var_4 event_manager::load_data()$/;"	f	class:event_manager
+load_inc	src/event_manager.cpp	/^var_4 event_manager::load_inc(var_1* _inc_path)$/;"	f	class:event_manager
+load_key_weight	extor/src/base_share_container.cpp	/^var_4 base_share_container::load_key_weight(UC_ReadConfigFile* _reader)$/;"	f	class:base_share_container
+load_stop_word	extor/src/base_share_container.cpp	/^var_4 base_share_container::load_stop_word(UC_ReadConfigFile* _reader)$/;"	f	class:base_share_container
+lock	doc_storage/UT_Sort.h	/^		CP_MUTEXLOCK lock;$/;"	m	struct:UT_Parallel_QS::ORG_INFO
+lock	include/UH_Define.h	/^	inline void lock()$/;"	f	struct:CP_MutexLock
+lock_r	include/UH_Define.h	/^	inline void lock_r()$/;"	f	struct:CP_MutexLock_RW
+lock_r	include/UH_Define.h	/^	inline void lock_r(CP_MUTEXLOCK_RW_LCK* lck)$/;"	f	struct:CP_MutexLock_RW_FUN
+lock_store	include/UT_HashTable_Pro.h	/^	inline var_vd lock_store(var_1* head)$/;"	f	class:UT_HashTable_Pro
+lock_table_r	include/UT_HashTable_Pro.h	/^	inline var_vd lock_table_r(var_8 idx)$/;"	f	class:UT_HashTable_Pro
+lock_table_w	include/UT_HashTable_Pro.h	/^	inline var_vd lock_table_w(var_8 idx)$/;"	f	class:UT_HashTable_Pro
+lock_w	include/UH_Define.h	/^	inline void lock_w()$/;"	f	struct:CP_MutexLock_RW
+lock_w	include/UH_Define.h	/^	inline void lock_w(CP_MUTEXLOCK_RW_LCK* lck)$/;"	f	struct:CP_MutexLock_RW_FUN
+locker	include/UH_Define.h	/^	pthread_mutex_t locker;$/;"	m	struct:CP_MutexLock_RW
+m_32AllocCount	include/WFMem.h	/^    size_t m_32AllocCount;      \/\/已分配的块数量$/;"	m	class:nsWFMem::CBlockMemory
+m_824_allocator	src/event_container.h	/^    UC_Allocator_Recycle*       m_824_allocator;$/;"	m	class:event_container
+m_824_size	src/event_container.h	/^    var_u4                      m_824_size;$/;"	m	class:event_container
+m_ATC_lck	src/event_manager.h	/^    CP_MUTEXLOCK                m_ATC_lck;$/;"	m	class:event_manager
+m_AcceptQueue	include/WFSocket.h	/^    nsWFQueue::CBlockListQueue m_AcceptQueue;   \/\/Accept队列$/;"	m	class:nsWFSocket::CTcpServer
+m_AcceptThread	include/WFSocket.h	/^    nsWFThread::CThread m_AcceptThread;         \/\/Accpet线程$/;"	m	class:nsWFSocket::CTcpServer
+m_BlockSize	include/WFMem.h	/^    size_t m_BlockSize;         \/\/每个块的大小$/;"	m	class:nsWFMem::CBlockMemory
+m_CurrAllocSize	include/WFMem.h	/^    size_t m_CurrAllocSize; \/\/当前块已分配的内存大小$/;"	m	class:nsWFMem::CReuseMemory
+m_CurrMemIndex	include/WFMem.h	/^    size_t m_CurrMemIndex;  \/\/当前内存块的索引$/;"	m	class:nsWFMem::CReuseMemory
+m_CurrQueueLen	include/WFQueue.h	/^    size_t m_CurrQueueLen;  \/\/当前队列长度$/;"	m	class:nsWFQueue::CBlockListQueue
+m_CurrQueueLen	include/WFQueue.h	/^    size_t m_CurrQueueLen;$/;"	m	class:nsWFQueue::CCheckTimeoutList
+m_CurrThreadCount	include/WFThread.h	/^    size_t m_CurrThreadCount;   \/\/线程数量$/;"	m	class:nsWFThread::CThread
+m_DF_hash	extor/include/word_IDF_calcor.h	/^    UT_HashTable_Pro<var_u8>  m_DF_hash;$/;"	m	class:word_IDF_calcor
+m_DataBlockMem	include/WFMem.h	/^    CBlockMemory m_DataBlockMem;    \/\/数据块内存$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_DataBlockSize	include/WFMem.h	/^    size_t m_DataBlockSize;         \/\/数据块大小$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_FlushFreq	include/WFLog.h	/^    size_t m_FlushFreq;             \/\/刷新频率$/;"	m	class:nsWFLog::CDailyLog
+m_FreeDelaySec	include/WFMem.h	/^    size_t m_FreeDelaySec;          \/\/检查释放时的延迟偏移$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_Lock	include/WFQueue.h	/^    nsWFLock::CLock m_Lock;$/;"	m	class:nsWFQueue::CCheckTimeoutList
+m_Log	include/WFMonitor.h	/^    nsWFLog::CDailyLog m_Log;               \/\/日志$/;"	m	class:nsWFMonitor::CMonitor
+m_MaxDataSize	include/WFQueue.h	/^    size_t m_MaxDataSize;   \/\/队列保存数据的最大长度$/;"	m	class:nsWFQueue::CBlockListQueue
+m_MaxLogSize	include/WFLog.h	/^    size_t m_MaxLogSize;            \/\/日志文件的最大长度$/;"	m	class:nsWFLog::CTrySaveLog
+m_MaxMemIndex	include/WFMem.h	/^    size_t m_MaxMemIndex;   \/\/内存块索引的最大位置$/;"	m	class:nsWFMem::CReuseMemory
+m_MaxQueueLen	include/WFQueue.h	/^    size_t m_MaxQueueLen;   \/\/最大队列长度$/;"	m	class:nsWFQueue::CBlockListQueue
+m_MaxQueueLen	include/WFQueue.h	/^    size_t m_MaxQueueLen;$/;"	m	class:nsWFQueue::CCheckTimeoutList
+m_MaxThreadCount	include/WFThread.h	/^    size_t m_MaxThreadCount;    \/\/最大线程数量$/;"	m	class:nsWFThread::CThread
+m_MemSize	include/WFMem.h	/^    size_t m_MemSize;       \/\/每个内存块的大小$/;"	m	class:nsWFMem::CReuseMemory
+m_Memory	include/WFMem.h	/^    CReuseMemory m_Memory;      \/\/内存管理器$/;"	m	class:nsWFMem::CBlockMemory
+m_MonitorServer	include/WFMonitor.h	/^    nsWFSocket::CTcpServer m_MonitorServer; \/\/监控服务$/;"	m	class:nsWFMonitor::CMonitor
+m_MonitorThread	include/WFMonitor.h	/^    nsWFThread::CThread m_MonitorThread;    \/\/监控线程$/;"	m	class:nsWFMonitor::CMonitor
+m_NID_hash	extor/include/base_share_container.h	/^    UT_HashTable_Pro<var_u8>    m_NID_hash;$/;"	m	class:base_share_container
+m_PeriodHeadMem	include/WFMem.h	/^    CBlockMemory m_PeriodHeadMem;   \/\/周期头结点内存$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_PeriodLen	include/WFMem.h	/^    size_t m_PeriodLen;             \/\/周期大小，单位为秒$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_QueueNodeMem	include/WFQueue.h	/^    nsWFMem::CBlockMemory m_QueueNodeMem;   \/\/队列结点内存管理对象$/;"	m	class:nsWFQueue::CBlockListQueue
+m_SaveCount	include/WFLog.h	/^    size_t m_SaveCount;             \/\/保存次数$/;"	m	class:nsWFLog::CDailyLog
+m_SavePeriod	include/WFLog.h	/^    size_t m_SavePeriod;            \/\/保存周期$/;"	m	class:nsWFLog::CDailyLog
+m_TF_data	extor/include/base_share_container.h	/^    var_1                       m_TF_data[256];$/;"	m	class:base_share_container
+m_TF_data	extor/include/word_IDF_calcor.h	/^    var_1   m_TF_data[256];$/;"	m	class:word_IDF_calcor
+m_aQueue	include/WFQueue.h	/^	CBlockListQueue **m_aQueue;$/;"	m	class:nsWFQueue::CBlockListSet
+m_active_thread_count	src/event_manager.h	/^    var_u4                      m_active_thread_count;$/;"	m	class:event_manager
+m_allocor	src/whl_list.h	/^    UC_Allocator_Recycle* m_allocor;$/;"	m	class:whl_list
+m_ar	include/UT_HashTable_Pro.h	/^	UC_Allocator_Recycle m_ar;$/;"	m	class:UT_HashTable_Pro
+m_ar_rn_map	src/event_infer.h	/^	whl_list< simple_pair<var_u8, var_u4> > m_ar_rn_map;$/;"	m	class:event_infer
+m_bAvailable	extor/zky_cut/NLPIR.h	/^		bool m_bAvailable;\/\/该成员作为多线程共享控制的参数，由系统自动分配，用户不可修改$/;"	m	class:CNLPIR
+m_bNeedTimeStamp	include/WFLog.h	/^    bool m_bNeedTimeStamp;          \/\/是否需要时间戳$/;"	m	class:nsWFLog::CDailyLog
+m_bNeedTimeStamp	include/WFLog.h	/^    bool m_bNeedTimeStamp;          \/\/是否需要时间戳$/;"	m	class:nsWFLog::CTrySaveLog
+m_bRun	include/WFMonitor.h	/^    bool m_bRun;                            \/\/线程运行标志$/;"	m	class:nsWFMonitor::CMonitor
+m_bRun	include/WFSocket.h	/^    bool m_bRun;                                \/\/线程运行标志$/;"	m	class:nsWFSocket::CTcpServer
+m_base_conf	extor/include/base_word_extractor.h	/^    base_conf       m_base_conf;$/;"	m	class:base_word_extractor
+m_buf_ptr	extor/include/zky_word_extractor.h	/^    var_1*  m_buf_ptr;$/;"	m	class:zky_word_extractor
+m_buf_ptr	src/doc_infer.h	/^	var_1* m_buf_ptr;$/;"	m	class:doc_infer
+m_buf_size	extor/include/zky_word_extractor.h	/^    var_u4  m_buf_size;$/;"	m	class:zky_word_extractor
+m_busy_lst	doc_storage/UT_Sort.h	/^	UT_Queue<SORT_INFO*> m_busy_lst;$/;"	m	class:UT_Parallel_QS
+m_cEventCriSec	include/UT_Queue.h	/^	CP_MUTEXLOCK m_cEventCriSec;$/;"	m	class:UT_Queue
+m_cMutexLock	include/UC_Allocator_Recycle.h	/^	CP_MUTEXLOCK m_cMutexLock;$/;"	m	class:UC_Allocator_Recycle
+m_cOpenFlag	include/UH_Define.h	/^	var_1   m_cOpenFlag;$/;"	m	struct:_cp_memory_map_file_
+m_cQueueCriSec	include/UT_Queue.h	/^	CP_MUTEXLOCK m_cQueueCriSec;$/;"	m	class:UT_Queue
+m_capacity	include/utility.h	/^    var_u4  m_capacity;$/;"	m	class:static_array
+m_cdd_docers	src/event_container.h	/^    whl_list<simple_pair<doc_infer*, var_f4> > m_cdd_docers; \/\/m_candidaters$/;"	m	class:event_container
+m_cdd_evters	src/event_container.h	/^	whl_list<doc_evt_dst> 		m_cdd_evters; \/\/m_candidaters$/;"	m	class:event_container
+m_cl_rn_map	src/event_infer.h	/^	whl_list< simple_pair<var_u8, var_u4> > m_cl_rn_map;$/;"	m	class:event_infer
+m_cmp	src/whl_list.h	/^    var_4 (*m_cmp)(T& _lhs, T& rhs);$/;"	m	class:whl_list
+m_cnt	src/whl_list.h	/^    var_u4       m_cnt;   $/;"	m	class:whl_list
+m_cpAllocator_FL	include/UT_HashSearch.h	/^	UC_Allocator_Recycle* m_cpAllocator_FL;$/;"	m	class:UT_HashSearch
+m_cpAllocator_VL	include/UT_HashSearch.h	/^	UT_Allocator<var_1>*  m_cpAllocator_VL;$/;"	m	class:UT_HashSearch
+m_cpFile	include/UC_ReadConfigFile.h	/^	FILE* m_cpFile;$/;"	m	class:UC_ReadConfigFile
+m_cri	include/WFLock.h	/^        CRITICAL_SECTION m_cri;$/;"	m	class:nsWFLock::CLock
+m_data_logger	src/event_manager.h	/^    nsWFLog::CDailyLog*         m_data_logger;$/;"	m	class:event_manager
+m_data_path	src/event_container.h	/^    var_1                       m_data_path[256];$/;"	m	class:event_container
+m_data_path	src/event_manager.h	/^    var_1                       m_data_path[256];$/;"	m	class:event_manager
+m_dict_handle	src/event_manager.h	/^    var_vd*                     m_dict_handle;$/;"	m	class:event_manager
+m_did_rn_map	src/event_infer.h	/^	whl_list< simple_pair<var_u8, var_u4> > m_did_rn_map;$/;"	m	class:event_infer
+m_did_rn_map_equal	src/event_infer.cpp	/^bool m_did_rn_map_equal(simple_pair<var_u8, var_u4>& lhs, simple_pair<var_u8, var_u4>& rhs)$/;"	f
+m_dnode_allocator	src/event_container.h	/^    UC_Allocator_Recycle*       m_dnode_allocator;        $/;"	m	class:event_container
+m_dnode_size	src/event_container.h	/^    var_u4                      m_dnode_size;$/;"	m	class:event_container
+m_doc_cnt	src/event_infer.h	/^	var_u4 m_doc_cnt;$/;"	m	class:event_infer
+m_doc_indexer	src/event_container.h	/^    UT_HashSearch<var_u8>       m_doc_indexer;$/;"	m	class:event_container
+m_doc_infer	src/event_container.h	/^    static_array<doc_infer>     m_doc_infer;$/;"	m	class:event_container
+m_doc_storager	src/event_container.h	/^    UT_Persistent_KeyValue<var_u8>* m_doc_storager;$/;"	m	class:event_container
+m_doc_storager	src/event_manager.h	/^    UT_Persistent_KeyValue<var_u8>*     m_doc_storager;$/;"	m	class:event_manager
+m_dp	include/WFPub.h	/^    DIR *m_dp;$/;"	m	class:nsWFPub::CTraversalDir
+m_dqm	doc_storage/UT_Persistent_KeyValue.h	/^	UC_DiskQuotaManager m_dqm;$/;"	m	class:UT_Persistent_KeyValue
+m_eid	src/doc_infer.h	/^	var_u8 m_eid;$/;"	m	class:doc_infer
+m_enode_allocator	src/event_container.h	/^    UC_Allocator_Recycle*       m_enode_allocator;$/;"	m	class:event_container
+m_enode_size	src/event_container.h	/^    var_u4                      m_enode_size;$/;"	m	class:event_container
+m_entry	include/WFPub.h	/^    struct dirent *m_entry;$/;"	m	class:nsWFPub::CTraversalDir	typeref:struct:nsWFPub::CTraversalDir::dirent
+m_eql	src/whl_list.h	/^    var_4 (*m_eql)(T& _lhs, T& rhs);$/;"	m	class:whl_list
+m_error_logger	src/event_manager.h	/^    nsWFLog::CDailyLog*         m_error_logger;$/;"	m	class:event_manager
+m_evt_DPIs	src/event_manager.h	/^    UT_Queue<doc_infer*>*       m_evt_DPIs; $/;"	m	class:event_manager
+m_evt_allocator	src/event_container.h	/^    UC_Allocator_Recycle*       m_evt_allocator;$/;"	m	class:event_container
+m_evt_confer	src/event_manager.cpp	/^evt_mgr_confer* event_manager::m_evt_confer = NULL;$/;"	m	class:event_manager	file:
+m_evt_confer	src/event_manager.h	/^    static evt_mgr_confer*      m_evt_confer;$/;"	m	class:event_manager
+m_evt_ctainer	src/event_manager.h	/^    event_container*            m_evt_ctainer;$/;"	m	class:event_manager
+m_evt_indexer	src/event_container.h	/^    UT_HashSearch<var_u8>       m_evt_indexer;$/;"	m	class:event_container
+m_evt_infer	src/event_container.h	/^    static_array<event_infer>   m_evt_infer;$/;"	m	class:event_container
+m_evt_ptr	src/event_container.h	/^	var_vd* 					m_evt_ptr;$/;"	m	class:event_container
+m_evt_size	src/event_container.h	/^    var_u4                      m_evt_size;$/;"	m	class:event_container
+m_ext_DPIs	src/event_manager.h	/^    UT_Queue<doc_infer*>*       m_ext_DPIs; $/;"	m	class:event_manager
+m_feature_map	extor/include/base_word_extractor.h	/^    UT_HashSearch<var_u8> m_feature_map;$/;"	m	class:base_word_extractor
+m_features_capacity	extor/include/TF_word_extractor.h	/^    var_u4      m_features_capacity;$/;"	m	class:TF_word_extractor
+m_features_capacity	extor/include/zky_word_extractor.h	/^    var_u4      m_features_capacity;$/;"	m	class:zky_word_extractor
+m_features_pointer	extor/include/TF_word_extractor.h	/^    term_info_st*    m_features_pointer;$/;"	m	class:TF_word_extractor
+m_features_pointer	extor/include/zky_word_extractor.h	/^    term_info_st*    m_features_pointer;$/;"	m	class:zky_word_extractor
+m_features_size	extor/include/TF_word_extractor.h	/^    var_u4      m_features_size;$/;"	m	class:TF_word_extractor
+m_features_size	extor/include/zky_word_extractor.h	/^    var_u4      m_features_size;$/;"	m	class:zky_word_extractor
+m_file_inc	include/UT_HashTable_Pro.h	/^	FILE* m_file_inc;$/;"	m	class:UT_HashTable_Pro
+m_file_inc	src/event_manager.h	/^    FILE*                       m_file_inc;$/;"	m	class:event_manager
+m_filestat	include/WFPub.h	/^    struct stat m_filestat;$/;"	m	class:nsWFPub::CTraversalDir	typeref:struct:nsWFPub::CTraversalDir::stat
+m_flg_del	doc_storage/UC_DiskQuotaManager.h	/^    var_1   m_flg_del;$/;"	m	class:UC_DiskQuotaManager
+m_flg_use	doc_storage/UC_DiskQuotaManager.h	/^    var_1   m_flg_use;$/;"	m	class:UC_DiskQuotaManager
+m_fpA	include/WFLog.h	/^    FILE *m_fpA;                    \/\/文件追加指针$/;"	m	class:nsWFLog::CDailyLog
+m_fun_argv	doc_storage/UC_DiskQuotaManager.h	/^    var_vd* m_fun_argv;$/;"	m	class:UC_DiskQuotaManager
+m_fun_judge	doc_storage/UC_DiskQuotaManager.h	/^    var_4 (*m_fun_judge)(var_4, var_8, var_4&, var_1*&, var_vd*);$/;"	m	class:UC_DiskQuotaManager
+m_fun_update	doc_storage/UC_DiskQuotaManager.h	/^    var_4 (*m_fun_update)(var_4, var_8, var_4&, var_1*&, var_vd*);$/;"	m	class:UC_DiskQuotaManager
+m_global_lck	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK_RW m_global_lck; \/\/ for clear, save, trim$/;"	m	class:UT_HashTable_Pro
+m_hFile	include/WFPub.h	/^    long m_hFile;$/;"	m	class:nsWFPub::CTraversalDir
+m_head	src/whl_list.h	/^    whl_node<T>* m_head;$/;"	m	class:whl_list
+m_iDefaultQueueDataSize	include/WFQueue.h	/^	int m_iDefaultQueueDataSize;$/;"	m	class:nsWFQueue::CBlockListSet
+m_iDefaultQueueLen	include/WFQueue.h	/^	int m_iDefaultQueueLen; $/;"	m	class:nsWFQueue::CBlockListSet
+m_iMaxOutTime	include/WFMonitor.h	/^    int m_iMaxOutTime;              \/\/监控服务的报警阈值，单位为秒$/;"	m	class:nsWFMonitor::CMonitor
+m_iMaxPriority	include/WFQueue.h	/^    int m_iMaxPriority;$/;"	m	class:nsWFQueue::CPriorityBlockQueue
+m_iMaxThreadCount	include/WFMonitor.h	/^    int m_iMaxThreadCount;          \/\/监控服务支持的最大线程数$/;"	m	class:nsWFMonitor::CMonitor
+m_iMinPriority	include/WFQueue.h	/^    int m_iMinPriority;$/;"	m	class:nsWFQueue::CPriorityBlockQueue
+m_iQueueCount	include/WFQueue.h	/^	int m_iQueueCount;$/;"	m	class:nsWFQueue::CBlockListSet
+m_id	src/doc_infer.h	/^	var_u8 m_id;$/;"	m	class:doc_infer
+m_id	src/event_infer.h	/^	var_u8 m_id;$/;"	m	class:event_infer
+m_idf_calcor	extor/include/base_share_container.h	/^    word_IDF_calcor             m_idf_calcor;$/;"	m	class:base_share_container
+m_idle_lst	doc_storage/UT_Sort.h	/^	UT_Queue<SORT_INFO*> m_idle_lst;$/;"	m	class:UT_Parallel_QS
+m_idx	doc_storage/UT_Persistent_KeyValue.h	/^	UT_HashTable_Pro<T_Key> m_idx;$/;"	m	class:UT_Persistent_KeyValue
+m_is_delay_recycle	include/UT_HashTable_Pro.h	/^	var_4 m_is_delay_recycle;$/;"	m	class:UT_HashTable_Pro
+m_is_persistent	include/UT_HashTable_Pro.h	/^	var_4 m_is_persistent;$/;"	m	class:UT_HashTable_Pro
+m_key_cnt_lst	src/event_infer.h	/^	whl_list< simple_pair<var_u8, simple_pair<var_u4, var_f4> > > m_key_cnt_lst;$/;"	m	class:event_infer
+m_key_did	src/event_infer.h	/^	var_u8 m_key_did;$/;"	m	class:event_infer
+m_lAllAllocLen	include/UT_Allocator.h	/^	var_8 m_lAllAllocLen;$/;"	m	class:UT_Allocator
+m_lAllDataNum	include/UT_HashSearch.h	/^	var_4 m_lAllDataNum;$/;"	m	class:UT_HashSearch
+m_lBegPos	include/UT_Queue.h	/^	var_4 m_lBegPos;$/;"	m	class:UT_Queue
+m_lBlockSize	include/UC_Allocator_Recycle.h	/^	var_8 m_lBlockSize;$/;"	m	class:UC_Allocator_Recycle
+m_lBufMemLen	include/UC_Allocator_Recycle.h	/^	var_8 m_lBufMemLen;$/;"	m	class:UC_Allocator_Recycle
+m_lCurBlockLen	include/UT_Allocator.h	/^	var_8 m_lCurBlockLen;$/;"	m	class:UT_Allocator
+m_lCurBlockNum	include/UT_Allocator.h	/^	var_8 m_lCurBlockNum;$/;"	m	class:UT_Allocator
+m_lCurQueueSize	include/UT_Queue.h	/^	var_4 m_lCurQueueSize;$/;"	m	class:UT_Queue
+m_lCurUseLen	include/UC_Allocator_Recycle.h	/^	var_8 m_lCurUseLen;$/;"	m	class:UC_Allocator_Recycle
+m_lDataLen	include/UT_HashSearch.h	/^	var_4 m_lDataLen;$/;"	m	class:UT_HashSearch
+m_lEndPos	include/UT_Queue.h	/^	var_4 m_lEndPos;$/;"	m	class:UT_Queue
+m_lHashTableSize	include/UT_HashSearch.h	/^	var_4   m_lHashTableSize;$/;"	m	class:UT_HashSearch
+m_lIsInitSystem	include/UT_HashSearch.h	/^	var_4 m_lIsInitSystem;$/;"	m	class:UT_HashSearch
+m_lMaxBlockLen	include/UT_Allocator.h	/^	var_8 m_lMaxBlockLen;	$/;"	m	class:UT_Allocator
+m_lMaxBlockNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lMaxBlockNum;$/;"	m	class:UC_Allocator_Recycle
+m_lMaxBlockNum	include/UT_Allocator.h	/^	var_8 m_lMaxBlockNum;$/;"	m	class:UT_Allocator
+m_lMaxBufNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lMaxBufNum;$/;"	m	class:UC_Allocator_Recycle
+m_lMaxMemNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lMaxMemNum;$/;"	m	class:UC_Allocator_Recycle
+m_lMaxQueueSize	include/UT_Queue.h	/^	var_4 m_lMaxQueueSize;$/;"	m	class:UT_Queue
+m_lStat_AllocNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lStat_AllocNum;$/;"	m	class:UC_Allocator_Recycle
+m_lStat_RecycleNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lStat_RecycleNum;$/;"	m	class:UC_Allocator_Recycle
+m_lTravelIndex	include/UT_HashSearch.h	/^	var_4  m_lTravelIndex;$/;"	m	class:UT_HashSearch
+m_lUseBufNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lUseBufNum;$/;"	m	class:UC_Allocator_Recycle
+m_lUseMemNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lUseMemNum;$/;"	m	class:UC_Allocator_Recycle
+m_large_allocator	src/event_manager.h	/^    UC_Allocator_Recycle*       m_large_allocator;$/;"	m	class:event_manager
+m_large_size	src/event_manager.h	/^    var_u4                      m_large_size;$/;"	m	class:event_manager
+m_lck	doc_storage/UT_Persistent_KeyValue.h	/^	CP_MUTEXLOCK m_lck;$/;"	m	class:UT_Persistent_KeyValue
+m_lck	src/event_container.h	/^    CP_MUTEXLOCK_RW             m_lck;$/;"	m	class:event_container
+m_lck_key_num	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK m_lck_key_num;$/;"	m	class:UT_HashTable_Pro
+m_len_del	include/UT_HashTable_Pro.h	/^	var_4 m_len_del;$/;"	m	class:UT_HashTable_Pro
+m_len_lck	include/UT_HashTable_Pro.h	/^	var_4 m_len_lck;$/;"	m	class:UT_HashTable_Pro
+m_len_mem	include/UT_HashTable_Pro.h	/^	var_4 m_len_mem;$/;"	m	class:UT_HashTable_Pro
+m_len_ptr	include/UT_HashTable_Pro.h	/^	var_4 m_len_ptr;$/;"	m	class:UT_HashTable_Pro
+m_len_ref	include/UT_HashTable_Pro.h	/^	var_4 m_len_ref;$/;"	m	class:UT_HashTable_Pro
+m_len_sto	include/UT_HashTable_Pro.h	/^	var_4 m_len_sto;$/;"	m	class:UT_HashTable_Pro
+m_list_size	doc_storage/UT_Sort.h	/^	var_4 m_list_size;$/;"	m	class:UT_Parallel_QS
+m_lock	include/WFLog.h	/^    nsWFLock::CLock m_lock;         \/\/日志锁$/;"	m	class:nsWFLog::CTrySaveLog
+m_lock	include/WFLog.h	/^    nsWFLock::CLock m_lock;         \/\/写文件的锁$/;"	m	class:nsWFLog::CDailyLog
+m_lock	include/WFMem.h	/^    nsWFLock::CLock m_lock;         \/\/分配锁$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_lock	include/WFMem.h	/^    nsWFLock::CLock m_lock;     \/\/分配锁$/;"	m	class:nsWFMem::CBlockMemory
+m_lock	include/WFMem.h	/^    nsWFLock::CLock m_lock; \/\/分配锁$/;"	m	class:nsWFMem::CReuseMemory
+m_lock	include/WFMonitor.h	/^    nsWFLock::CLock m_lock;                 \/\/互斥锁$/;"	m	class:nsWFMonitor::CMonitor
+m_lock	include/WFQueue.h	/^    nsWFLock::CLock m_lock; \/\/队列锁$/;"	m	class:nsWFQueue::CBlockListQueue
+m_lockArray	include/WFQueue.h	/^	nsWFLock::CLock m_lockArray;$/;"	m	class:nsWFQueue::CBlockListSet
+m_log_path	src/event_manager.h	/^	var_1						m_log_path[256];$/;"	m	class:event_manager
+m_lpHashTable	include/UT_HashSearch.h	/^	var_1** m_lpHashTable;$/;"	m	class:UT_HashSearch
+m_max_key_num	include/UT_HashTable_Pro.h	/^	var_u8       m_max_key_num;$/;"	m	class:UT_HashTable_Pro
+m_max_read_handle_num	doc_storage/UC_DiskQuotaManager.h	/^    var_4   m_max_read_handle_num;$/;"	m	class:UC_DiskQuotaManager
+m_max_write_size	doc_storage/UC_DiskQuotaManager.h	/^    var_4   m_max_write_size;$/;"	m	class:UC_DiskQuotaManager
+m_md5er	extor/include/base_share_container.h	/^    UC_MD5                      m_md5er;$/;"	m	class:base_share_container
+m_md5er	extor/include/base_word_extractor.h	/^    UC_MD5 m_md5er;$/;"	m	class:base_word_extractor
+m_md5er	src/event_manager.cpp	/^UC_MD5 event_manager::m_md5er;$/;"	m	class:event_manager	file:
+m_md5er	src/event_manager.h	/^	static UC_MD5				m_md5er;$/;"	m	class:event_manager
+m_nHandle	extor/zky_cut/NLPIR.h	/^		unsigned int m_nHandle;\/\/该成员作为该类的Handle值，由系统自动分配，用户不可修改$/;"	m	class:CNLPIR
+m_name_flg	include/UT_HashTable_Pro.h	/^	var_1 m_name_flg[256];$/;"	m	class:UT_HashTable_Pro
+m_name_inc	include/UT_HashTable_Pro.h	/^	var_1 m_name_inc[256];$/;"	m	class:UT_HashTable_Pro
+m_name_sto	include/UT_HashTable_Pro.h	/^	var_1 m_name_sto[256];$/;"	m	class:UT_HashTable_Pro
+m_name_sto	src/event_manager.h	/^    var_1                       m_name_sto[256];$/;"	m	class:event_manager
+m_news_ID	extor/include/base_word_extractor.h	/^    var_u8          m_news_ID;$/;"	m	class:base_word_extractor
+m_now_key_num	include/UT_HashTable_Pro.h	/^	var_u8       m_now_key_num;$/;"	m	class:UT_HashTable_Pro
+m_pHead	include/WFQueue.h	/^    SNode *m_pHead;$/;"	m	class:nsWFQueue::CCheckTimeoutList
+m_pHead	include/WFQueue.h	/^    char *m_pHead;  \/\/队头指针，用于取结点出队$/;"	m	class:nsWFQueue::CBlockListQueue
+m_pIdle	include/WFMem.h	/^    void *m_pIdle;              \/\/空闲链首地址$/;"	m	class:nsWFMem::CBlockMemory
+m_pIdleNode	include/WFQueue.h	/^    SNode *m_pIdleNode;$/;"	m	class:nsWFQueue::CCheckTimeoutList
+m_pLock	include/WFLock.h	/^    CLock *m_pLock;$/;"	m	class:nsWFLock::CAutolock
+m_pMemIndex	include/WFMem.h	/^    char **m_pMemIndex;     \/\/内存块索引$/;"	m	class:nsWFMem::CReuseMemory
+m_pPeriodList	include/WFMem.h	/^    SPeriodHead *m_pPeriodList;     \/\/按照ExpiredPeriod递减的顺序进行组织$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_pTail	include/WFQueue.h	/^    char *m_pTail;  \/\/队尾指针，用于加结点入队$/;"	m	class:nsWFQueue::CBlockListQueue
+m_pThreadID	include/WFThread.h	/^    void **m_pThreadID;         \/\/线程ID数组首地址，用于保存已启动的线程的信息$/;"	m	class:nsWFThread::CThread
+m_paThreadInfo	include/WFMonitor.h	/^    SThreadInfo *m_paThreadInfo;    \/\/用于保存线程状态的数组首地址$/;"	m	class:nsWFMonitor::CMonitor
+m_persistent_lck	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK    m_persistent_lck;$/;"	m	class:UT_HashTable_Pro
+m_pointer	include/utility.h	/^    T* m_pointer;$/;"	m	class:static_array
+m_pointer_allocator	src/event_container.h	/^    UC_Allocator_Recycle*       m_pointer_allocator;$/;"	m	class:event_container
+m_pointer_size	src/event_container.h	/^    var_u4                      m_pointer_size;$/;"	m	class:event_container
+m_reqsvr_socket	src/event_manager.h	/^    CP_SOCKET_T                 m_reqsvr_socket;$/;"	m	class:event_manager
+m_run_status	src/event_manager.h	/^    var_4                       m_run_status;$/;"	m	class:event_manager
+m_sFileinfo	include/WFPub.h	/^    struct _finddata_t m_sFileinfo;$/;"	m	class:nsWFPub::CTraversalDir	typeref:struct:nsWFPub::CTraversalDir::_finddata_t
+m_sel_cnt	extor/include/TF_word_extractor.h	/^    var_u4      m_sel_cnt;$/;"	m	class:TF_word_extractor
+m_sel_features	extor/include/TF_word_extractor.h	/^    term_info_st**   m_sel_features;$/;"	m	class:TF_word_extractor
+m_self_allocor	src/whl_list.h	/^    var_4 m_self_allocor;$/;"	m	class:whl_list
+m_set_DPI_all_count	src/event_manager.h	/^    var_u4                      m_set_DPI_all_count;$/;"	m	class:event_manager
+m_set_DPI_succeed_count	src/event_manager.h	/^    var_u4                      m_set_DPI_succeed_count;$/;"	m	class:event_manager
+m_sf_add_count	doc_storage/UC_DiskQuotaManager.h	/^    var_u8  m_sf_add_count;$/;"	m	class:UC_DiskQuotaManager
+m_sf_all_count	doc_storage/UC_DiskQuotaManager.h	/^    var_4   m_sf_all_count;$/;"	m	class:UC_DiskQuotaManager
+m_sf_cur_count	doc_storage/UC_DiskQuotaManager.h	/^    var_4   m_sf_cur_count;$/;"	m	class:UC_DiskQuotaManager
+m_sf_cur_size	doc_storage/UC_DiskQuotaManager.h	/^    var_8*  m_sf_cur_size;$/;"	m	class:UC_DiskQuotaManager
+m_sf_file_read	doc_storage/UC_DiskQuotaManager.h	/^    UT_Queue<FILE*>* m_sf_file_read;$/;"	m	class:UC_DiskQuotaManager
+m_sf_file_write	doc_storage/UC_DiskQuotaManager.h	/^    FILE**           m_sf_file_write;$/;"	m	class:UC_DiskQuotaManager
+m_sf_inP_allnum	doc_storage/UC_DiskQuotaManager.h	/^    var_4   m_sf_inP_allnum[DQM_MAX_STORE_PATH_COUNT];$/;"	m	class:UC_DiskQuotaManager
+m_sf_inP_count	doc_storage/UC_DiskQuotaManager.h	/^    var_4   m_sf_inP_count;$/;"	m	class:UC_DiskQuotaManager
+m_sf_inP_curnum	doc_storage/UC_DiskQuotaManager.h	/^    var_4   m_sf_inP_curnum[DQM_MAX_STORE_PATH_COUNT];$/;"	m	class:UC_DiskQuotaManager
+m_sf_index_no	doc_storage/UC_DiskQuotaManager.h	/^    var_4*  m_sf_index_no;$/;"	m	class:UC_DiskQuotaManager
+m_sf_max_size	doc_storage/UC_DiskQuotaManager.h	/^    var_8   m_sf_max_size;$/;"	m	class:UC_DiskQuotaManager
+m_sf_name_lst	doc_storage/UC_DiskQuotaManager.h	/^    var_1** m_sf_name_lst;$/;"	m	class:UC_DiskQuotaManager
+m_sf_quota_lock	doc_storage/UC_DiskQuotaManager.h	/^    CP_MUTEXLOCK     m_sf_quota_lock;$/;"	m	class:UC_DiskQuotaManager
+m_sf_tmp_size	doc_storage/UC_DiskQuotaManager.h	/^    var_8*  m_sf_tmp_size;$/;"	m	class:UC_DiskQuotaManager
+m_sf_use_flag	doc_storage/UC_DiskQuotaManager.h	/^    var_4*  m_sf_use_flag;$/;"	m	class:UC_DiskQuotaManager
+m_share_container	extor/include/TF_word_extractor.h	/^    base_share_container* m_share_container;$/;"	m	class:TF_word_extractor
+m_size	include/utility.h	/^    var_u4  m_size;$/;"	m	class:static_array
+m_small_allocator	src/event_manager.h	/^    UC_Allocator_Recycle*       m_small_allocator;$/;"	m	class:event_manager
+m_small_size	src/event_manager.h	/^    var_u4                      m_small_size;$/;"	m	class:event_manager
+m_sockListen	include/WFSocket.h	/^    sock_descriptor m_sockListen;               \/\/监听socket$/;"	m	class:nsWFSocket::CTcpServer
+m_stat_hash	src/event_container.h	/^    UT_HashSearch<var_p>        m_stat_hash;$/;"	m	class:event_container
+m_static_travel	include/UT_HashTable_Pro.h	/^	var_4        m_static_travel;$/;"	m	class:UT_HashTable_Pro
+m_static_travel_lck	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK m_static_travel_lck;$/;"	m	class:UT_HashTable_Pro
+m_status	extor/include/base_share_container.h	/^    var_4 m_status;$/;"	m	class:base_share_container
+m_status	extor/include/base_word_extractor.h	/^    var_u4          m_status;$/;"	m	class:base_word_extractor
+m_status	extor/include/word_IDF_calcor.h	/^    var_4 m_status;$/;"	m	class:word_IDF_calcor
+m_stop_hash	extor/include/base_share_container.h	/^    UT_HashSearch<var_u8>       m_stop_hash;$/;"	m	class:base_share_container
+m_store_lck	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK* m_store_lck;$/;"	m	class:UT_HashTable_Pro
+m_store_lck_num	include/UT_HashTable_Pro.h	/^	var_4         m_store_lck_num;$/;"	m	class:UT_HashTable_Pro
+m_store_size	include/UT_HashTable_Pro.h	/^	var_4 m_store_size;$/;"	m	class:UT_HashTable_Pro
+m_szDir	include/WFPub.h	/^    char m_szDir[FILENAME_MAX];$/;"	m	class:nsWFPub::CTraversalDir
+m_szLogDir	include/WFLog.h	/^    char m_szLogDir[FILENAME_MAX];  \/\/日志目录$/;"	m	class:nsWFLog::CDailyLog
+m_szLogDir	include/WFLog.h	/^    char m_szLogDir[FILENAME_MAX];  \/\/日志目录$/;"	m	class:nsWFLog::CTrySaveLog
+m_szPattern	include/WFPub.h	/^    char m_szPattern[FILENAME_MAX];$/;"	m	class:nsWFPub::CTraversalDir
+m_szPrefix	include/WFLog.h	/^    char m_szPrefix[FILENAME_MAX];  \/\/日志前缀$/;"	m	class:nsWFLog::CDailyLog
+m_szPrefix	include/WFLog.h	/^    char m_szPrefix[FILENAME_MAX];  \/\/日志前缀$/;"	m	class:nsWFLog::CTrySaveLog
+m_szpRecycleLibrary	include/UC_Allocator_Recycle.h	/^	var_1*  m_szpRecycleLibrary;$/;"	m	class:UC_Allocator_Recycle
+m_szpTravelPos	include/UT_HashSearch.h	/^	var_1* m_szpTravelPos;$/;"	m	class:UT_HashSearch
+m_szppBlockLibrary	include/UC_Allocator_Recycle.h	/^	var_1** m_szppBlockLibrary;$/;"	m	class:UC_Allocator_Recycle
+m_tLastOpenDay	include/WFLog.h	/^    time_t m_tLastOpenDay;          \/\/上次打开文件的时间，以天为单位$/;"	m	class:nsWFLog::CDailyLog
+m_tLastOpenTime	include/WFLog.h	/^    time_t m_tLastOpenTime;         \/\/上次打开文件的时间，以秒为单位$/;"	m	class:nsWFLog::CDailyLog
+m_table_flg	include/UT_HashTable_Pro.h	/^	var_4*  m_table_flg;$/;"	m	class:UT_HashTable_Pro
+m_table_lck	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK* m_table_lck;$/;"	m	class:UT_HashTable_Pro
+m_table_lck_num	include/UT_HashTable_Pro.h	/^	var_4         m_table_lck_num;$/;"	m	class:UT_HashTable_Pro
+m_table_ptr	include/UT_HashTable_Pro.h	/^	var_1** m_table_ptr;$/;"	m	class:UT_HashTable_Pro
+m_table_size	include/UT_HashTable_Pro.h	/^	var_8 m_table_size;$/;"	m	class:UT_HashTable_Pro
+m_tag_ar	src/doc_infer.h	/^	static_array<var_u8>	m_tag_ar;$/;"	m	class:doc_infer
+m_tag_cl	src/doc_infer.h	/^	static_array<var_u8>	m_tag_cl;$/;"	m	class:doc_infer
+m_tagweight_map	extor/include/base_share_container.h	/^    UT_HashSearch<var_u8>       m_tagweight_map;$/;"	m	class:base_share_container
+m_term_allocator	src/event_manager.h	/^    UC_Allocator_Recycle*       m_term_allocator;$/;"	m	class:event_manager
+m_term_size	src/event_manager.h	/^    var_u4                      m_term_size;$/;"	m	class:event_manager
+m_terms	src/doc_infer.h	/^	static_array<term_info_st>  m_terms;$/;"	m	class:doc_infer
+m_text_inf	extor/include/base_word_extractor.h	/^    simple_pair<var_1*, var_1*> m_text_inf;$/;"	m	class:base_word_extractor
+m_thread_num	doc_storage/UT_Sort.h	/^	var_4 m_thread_num;$/;"	m	class:UT_Parallel_QS
+m_threshold_normal	doc_storage/UT_Sort.h	/^	var_4 m_threshold_normal;$/;"	m	class:UT_Parallel_QS
+m_time	src/event_infer.h	/^	var_u8 m_time;$/;"	m	class:event_infer
+m_tit_inf	extor/include/base_word_extractor.h	/^    simple_pair<var_1*, var_1*> m_tit_inf;$/;"	m	class:base_word_extractor
+m_tm	src/doc_infer.h	/^	var_u8 m_tm;$/;"	m	class:doc_infer
+m_total_DF	extor/include/word_IDF_calcor.h	/^    var_u4  m_total_DF;$/;"	m	class:word_IDF_calcor
+m_tpQueue	include/UT_Queue.h	/^	T_Key* m_tpQueue;$/;"	m	class:UT_Queue
+m_tppBlockLibrary	include/UT_Allocator.h	/^	T**   m_tppBlockLibrary;	$/;"	m	class:UT_Allocator
+m_upd_trylogger	src/event_manager.h	/^    nsWFLog::CTrySaveLog*       m_upd_trylogger;$/;"	m	class:event_manager
+m_updsvr_socket	src/event_manager.h	/^    CP_SOCKET_T                 m_updsvr_socket;$/;"	m	class:event_manager
+m_w2doc_map	src/event_container.h	/^    UT_HashSearch<var_u8>       m_w2doc_map;$/;"	m	class:event_container
+m_w2evt_map	src/event_container.h	/^    UT_HashSearch<var_u8>       m_w2evt_map;$/;"	m	class:event_container
+m_wid2str_map	src/event_container.h	/^    UT_HashSearch<var_u8>       m_wid2str_map;$/;"	m	class:event_container
+main	src/event_manager.cpp	/^int main(int argc, char* argv[])$/;"	f
+max	include/common_def.h	45;"	d
+max_key_num	doc_storage/UT_Persistent_KeyValue.h	/^    var_u8 max_key_num;$/;"	m	struct:tag_UT_Persistent_KeyValue_config
+max_read_handle_num	doc_storage/UT_Persistent_KeyValue.h	/^    var_4 max_read_handle_num;$/;"	m	struct:tag_UT_Persistent_KeyValue_config
+max_write_size	doc_storage/UT_Persistent_KeyValue.h	/^    var_4 max_write_size;$/;"	m	struct:tag_UT_Persistent_KeyValue_config
+min	include/common_def.h	49;"	d
+mutex	include/UH_Define.h	/^	CRITICAL_SECTION mutex;$/;"	m	struct:CP_MutexLock
+mutex	include/UH_Define.h	/^	CRITICAL_SECTION mutex;$/;"	m	struct:CP_MutexLock_RW
+mutex	include/UH_Define.h	/^	CRITICAL_SECTION mutex;$/;"	m	struct:CP_MutexLock_RW_FUN
+mutex	include/UH_Define.h	/^	pthread_mutex_t mutex;$/;"	m	struct:CP_MutexLock
+mutex	include/UH_Define.h	/^	pthread_mutex_t mutex;$/;"	m	struct:CP_MutexLock_RW_FUN
+need_consider	extor/src/TF_word_extractor.cpp	/^var_4 TF_word_extractor::need_consider(var_1* _word)$/;"	f	class:TF_word_extractor
+normalize_vector	extor/src/base_word_extractor.cpp	/^var_vd base_word_extractor::normalize_vector(term_info_st* _features, var_u4 _cnt)$/;"	f	class:base_word_extractor
+nsWFLock	include/WFLock.h	/^namespace nsWFLock$/;"	n
+nsWFLog	include/WFLog.h	/^namespace nsWFLog$/;"	n
+nsWFLog	src/event_manager.h	/^namespace nsWFLog$/;"	n
+nsWFMem	include/WFMem.h	/^namespace nsWFMem$/;"	n
+nsWFMonitor	include/WFMonitor.h	/^namespace nsWFMonitor$/;"	n
+nsWFMonitor	src/event_manager.h	/^namespace nsWFMonitor$/;"	n
+nsWFPub	include/WFPub.h	/^namespace nsWFPub$/;"	n
+nsWFQueue	include/WFQueue.h	/^namespace nsWFQueue$/;"	n
+nsWFSocket	include/WFSocket.h	/^namespace nsWFSocket$/;"	n
+nsWFThread	include/WFThread.h	/^namespace nsWFThread$/;"	n
+num	include/UT_HashTable_Pro.h	/^	var_4 num()$/;"	f	class:UT_HashTable_Pro
+open_MMF	include/UH_Define.h	/^	var_4 open_MMF(var_1* file,var_1 iMode=0)$/;"	f	struct:_cp_memory_map_file_
+operator ==	include/utility.h	/^bool operator==(const simple_pair<T1, T2>& lhs, const simple_pair<T1, T2>& rhs)$/;"	f
+org	doc_storage/UT_Sort.h	/^		ORG_INFO* org;$/;"	m	struct:UT_Parallel_QS::SORT_INFO
+pBlock	include/WFMem.h	/^        char *pBlock; $/;"	m	struct:nsWFMem::CFreeByTimeMemory::SPeriodHead
+pNext	include/WFMem.h	/^        SPeriodHead *pNext;$/;"	m	struct:nsWFMem::CFreeByTimeMemory::SPeriodHead
+pNext	include/WFMem.h	/^        char *pNext;$/;"	m	struct:nsWFMem::CFreeByTimeMemory::SDataBlockMeta
+pNext	include/WFQueue.h	/^        SNode *pNext;$/;"	m	struct:nsWFQueue::CCheckTimeoutList::SNode
+parse_dinfer	src/event_manager.cpp	/^var_4 event_manager::parse_dinfer(var_4 _buf_len, var_1* _buf_ptr, doc_infer* _dinfer)$/;"	f	class:event_manager
+parse_news_buf	extor/src/base_word_extractor.cpp	/^var_4 base_word_extractor::parse_news_buf( var_1* _news_buf, var_u4 _news_len )$/;"	f	class:base_word_extractor
+path_buffer	doc_storage/UT_Persistent_KeyValue.h	/^    var_1 path_buffer[MAX_STORE_PATH_COUNT][256];$/;"	m	struct:tag_UT_Persistent_KeyValue_config
+pbase_conf	extor/include/base_word_extractor.h	/^}base_conf, *pbase_conf;$/;"	t	typeref:struct:tag_base_conf
+persistent	include/UT_HashTable_Pro.h	/^	var_4 persistent(T_Key key, var_vd* value, var_4 is_delete)$/;"	f	class:UT_HashTable_Pro
+pointer	include/UH_Define.h	/^	var_vd* pointer;$/;"	m	struct:_cp_memory_map_file_
+pop_value	include/UT_HashTable_Pro.h	/^	var_4 pop_value(T_Key key, var_vd*& reference)$/;"	f	class:UT_HashTable_Pro
+pos_id	extor/include/ext_common_def.h	/^	var_u8 pos_id;$/;"	m	struct:POS_Weight
+print_lock	include/UH_Define.h	/^static void print_lock(struct flock lock)$/;"	f
+proc_add_file	src/event_manager.cpp	/^var_4 event_manager::proc_add_file(const var_1* _add_FP)$/;"	f	class:event_manager
+proc_del_file	src/event_manager.cpp	/^var_4 event_manager::proc_del_file(const var_1* _del_FP)$/;"	f	class:event_manager
+proc_upd_files	src/event_manager.cpp	/^var_4 event_manager::proc_upd_files( $/;"	f	class:event_manager
+ptagweight	extor/include/ext_common_def.h	/^}tagweight, *ptagweight;$/;"	t	typeref:struct:POS_Weight
+pterm_info_st	extor/include/ext_common_def.h	/^}term_info_st, *pterm_info_st;$/;"	t	typeref:struct:tag_term_info_st
+push_value	include/UT_HashTable_Pro.h	/^	var_vd push_value(var_vd*& reference)$/;"	f	class:UT_HashTable_Pro
+qs_recursion	doc_storage/UT_Sort.h	/^var_4 qs_recursion(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Key_2* tKey_2, T_Key_3* tKey_3, T_Key_4* tKey_4, T_Key_5* tKey_5)$/;"	f
+qs_recursion_1k	doc_storage/UT_Sort.h	/^var_4 qs_recursion_1k(var_4 lBegin, var_4 lEnd, T_Key* tKey_1)$/;"	f
+qs_recursion_1k_1p	doc_storage/UT_Sort.h	/^var_4 qs_recursion_1k_1p(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Key_2* tKey_2)$/;"	f
+qs_recursion_1k_2p	doc_storage/UT_Sort.h	/^var_4 qs_recursion_1k_2p(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Key_2* tKey_2, T_Key_3* tKey_3)$/;"	f
+qs_recursion_1k_4p	doc_storage/UT_Sort.h	/^var_4 qs_recursion_1k_4p(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Pld_1* tPld_1, T_Pld_2* tPld_2, T_Pld_3* tPld_3, T_Pld_4* tPld_4)$/;"	f
+qs_recursion_2k	doc_storage/UT_Sort.h	/^var_4 qs_recursion_2k(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Key_2* tKey_2)$/;"	f
+qs_unrecursion	doc_storage/UT_Sort.h	/^var_4 qs_unrecursion(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Key_2* tKey_2, T_Key_3* tKey_3, T_Key_4* tKey_4)$/;"	f
+qs_unrecursion	doc_storage/UT_Sort.h	/^var_4 qs_unrecursion(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Key_2* tKey_2, T_Key_3* tKey_3, T_Key_4* tKey_4, T_Key_5* tKey_5)$/;"	f
+qs_unrecursion_1k	doc_storage/UT_Sort.h	/^var_4 qs_unrecursion_1k(var_4 lBegin, var_4 lEnd, T_Key* tKey)$/;"	f
+qs_unrecursion_1k	doc_storage/UT_Sort.h	/^var_4 qs_unrecursion_1k(var_4 lBegin, var_4 lEnd, T_Key* tKey, var_4 (*_compare_fun)(T_Key, T_Key))$/;"	f
+qs_unrecursion_1k_1p	doc_storage/UT_Sort.h	/^var_4 qs_unrecursion_1k_1p(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Key_2* tKey_2)$/;"	f
+qs_unrecursion_1k_2p	doc_storage/UT_Sort.h	/^var_4 qs_unrecursion_1k_2p(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Key_2* tKey_2, T_Key_3* tKey_3)$/;"	f
+qs_unrecursion_2k	doc_storage/UT_Sort.h	/^var_4 qs_unrecursion_2k(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Key_2* tKey_2)$/;"	f
+qs_unrecursion_2k_1p	doc_storage/UT_Sort.h	/^var_4 qs_unrecursion_2k_1p(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Key_2* tKey_2, T_Key_3* tKey_3)$/;"	f
+qs_unrecursion_2k_2p	doc_storage/UT_Sort.h	/^var_4 qs_unrecursion_2k_2p(var_4 lBegin, var_4 lEnd, T_Key_1* tKey_1, T_Key_2* tKey_2, T_Key_3* tKey_3, T_Key_4* tKey_4)$/;"	f
+query	doc_storage/UT_Persistent_KeyValue.h	/^	var_4 query(T_Key key, var_vd* value, var_4& size)$/;"	f	class:UT_Persistent_KeyValue
+query	src/whl_list.h	/^    whl_node<T>* query(T& _val)$/;"	f	class:whl_list
+query_key	include/UT_HashTable_Pro.h	/^	var_4 query_key(T_Key key)$/;"	f	class:UT_HashTable_Pro
+radix_sort_one_byte	doc_storage/UT_Sort.h	/^void radix_sort_one_byte(var_4 num, T_Key* src, T_Key* des)$/;"	f
+rd_c	include/UH_Define.h	/^	var_u4 rd_c; \/\/ read count$/;"	m	struct:CP_MutexLock_RW
+rd_c	include/UH_Define.h	/^	var_u4 rd_c; \/\/ read count$/;"	m	struct:CP_MutexLock_RW_LCK
+read_cfg	src/evt_mgr_confer.h	/^	var_4 read_cfg(UC_ReadConfigFile& _conf_reader)$/;"	f	class:evt_mgr_confer
+read_conf	extor/src/base_word_extractor.cpp	/^var_4 base_word_extractor::read_conf(UC_ReadConfigFile* _reader)$/;"	f	class:base_word_extractor
+recv_upd_files	src/event_manager.cpp	/^var_4 event_manager::recv_upd_files($/;"	f	class:event_manager
+regist	src/event_infer.cpp	/^var_4 event_infer::regist(doc_infer* _dinfer)$/;"	f	class:event_infer
+reset	include/utility.h	/^    var_vd reset()$/;"	f	class:static_array
+reset	src/whl_list.h	/^    var_vd reset()$/;"	f	class:whl_list
+restore	include/UT_HashTable_Pro.h	/^	var_4 restore()$/;"	f	class:UT_HashTable_Pro
+result_t	extor/zky_cut/NLPIR.h	/^struct result_t{$/;"	s
+ret	src/event_container.cpp	/^	var_4 ret = m_doc_indexer.DelKey_Fl(_did);$/;"	v
+right	include/utility.h	/^    T2 right;$/;"	m	struct:simple_pair
+sPOS	extor/zky_cut/NLPIR.h	/^  char  sPOS[POS_SIZE];\/\/word type，词性ID值，可以快速的获取词性表$/;"	m	struct:result_t
+save	include/UT_HashTable_Pro.h	/^	var_4 save(var_1* library_file, var_4 is_lock = 1)$/;"	f	class:UT_HashTable_Pro
+save_bin	src/event_manager.cpp	/^var_4 event_manager::save_bin(time_t _tm)$/;"	f	class:event_manager
+save_inc	src/event_manager.cpp	/^var_4 event_manager::save_inc(doc_infer* _dpi, var_u8 _opt)$/;"	f	class:event_manager
+select_feature	extor/src/TF_word_extractor.cpp	/^var_4 TF_word_extractor::select_feature()$/;"	f	class:TF_word_extractor
+send_error_code	src/event_manager.h	/^    inline var_4 send_error_code(const CP_SOCKET_T _sock, const var_4 code)$/;"	f	class:event_manager
+serialize	src/doc_infer.cpp	/^var_4 doc_infer::serialize(FILE* _fh)$/;"	f	class:doc_infer
+serialize	src/event_infer.cpp	/^var_4 event_infer::serialize(FILE* _fh)$/;"	f	class:event_infer
+set_time_begin	include/UH_Define.h	/^	inline void set_time_begin()$/;"	f	struct:_cp_stat_time_
+set_time_end	include/UH_Define.h	/^	inline void set_time_end()$/;"	f	struct:_cp_stat_time_
+siFileSize	include/UH_Define.h	/^	size_t  siFileSize;$/;"	m	struct:_cp_memory_map_file_
+sign_lock	include/UH_Define.h	/^	var_u4 sign_lock;$/;"	m	struct:CP_MutexLock_RW
+sign_mask	include/UH_Define.h	/^	var_u4 sign_mask;$/;"	m	struct:CP_MutexLock_RW
+simple_pair	include/utility.h	/^	simple_pair()$/;"	f	struct:simple_pair
+simple_pair	include/utility.h	/^	simple_pair(T1 lt, T2 rt)$/;"	f	struct:simple_pair
+simple_pair	include/utility.h	/^struct simple_pair$/;"	s
+snprintf	include/WFPub.h	33;"	d
+sock_descriptor	include/WFSocket.h	/^    typedef SOCKET sock_descriptor;$/;"	t
+sock_descriptor	include/WFSocket.h	/^    typedef int sock_descriptor;$/;"	t
+sock_error	include/WFSocket.h	27;"	d
+sock_error	include/WFSocket.h	40;"	d
+sock_invalid	include/WFSocket.h	26;"	d
+sock_invalid	include/WFSocket.h	39;"	d
+socklen_t	include/WFSocket.h	/^    typedef int socklen_t;$/;"	t
+start	extor/zky_cut/NLPIR.h	/^  int start; \/\/start position,词语在输入句子中的开始位置$/;"	m	struct:result_t
+start	src/event_manager.cpp	/^var_4 event_manager::start()$/;"	f	class:event_manager
+state	include/UC_MD5.h	/^		UINT4 state[4];            \/* state (ABCD) *\/$/;"	m	struct:UC_MD5::__anon3
+static_array	include/utility.h	/^    static_array() {}$/;"	f	class:static_array
+static_array	include/utility.h	/^class static_array$/;"	c
+sto_path	doc_storage/UT_Persistent_KeyValue.h	/^    var_1* sto_path[MAX_STORE_PATH_COUNT];$/;"	m	struct:tag_UT_Persistent_KeyValue_config
+sto_path_num	doc_storage/UT_Persistent_KeyValue.h	/^    var_4 sto_path_num;$/;"	m	struct:tag_UT_Persistent_KeyValue_config
+sto_total_size	doc_storage/UT_Persistent_KeyValue.h	/^    var_4 sto_total_size[MAX_STORE_PATH_COUNT];$/;"	m	struct:tag_UT_Persistent_KeyValue_config
+stop_word	extor/src/base_share_container.cpp	/^var_4 base_share_container::stop_word(var_1* _word)$/;"	f	class:base_share_container
+strnstr	include/utility.h	/^inline var_1* strnstr(\/*const *\/var_1* start, const var_1* end, var_1* pos, var_u4 len)$/;"	f
+sys_error_code	include/utility.h	/^inline var_4 sys_error_code()$/;"	f
+szThreadDesc	include/WFMonitor.h	/^        char szThreadDesc[MAX_THREAD_DESCRIPTION_LEN+4];$/;"	m	struct:nsWFMonitor::CMonitor::SThreadInfo
+tExpired	include/WFQueue.h	/^        time_t tExpired;$/;"	m	struct:nsWFQueue::CCheckTimeoutList::SNode
+tUpdate	include/WFMonitor.h	/^        time_t tUpdate;$/;"	m	struct:nsWFMonitor::CMonitor::SThreadInfo
+tag_UT_Persistent_KeyValue_config	doc_storage/UT_Persistent_KeyValue.h	/^typedef struct tag_UT_Persistent_KeyValue_config$/;"	s
+tag_base_conf	extor/include/base_word_extractor.h	/^typedef struct tag_base_conf$/;"	s
+tag_term_info_st	extor/include/ext_common_def.h	/^typedef struct tag_term_info_st$/;"	s
+tagweight	extor/include/ext_common_def.h	/^}tagweight, *ptagweight;$/;"	t	typeref:struct:POS_Weight
+term_info_st	extor/include/ext_common_def.h	/^}term_info_st, *pterm_info_st;$/;"	t	typeref:struct:tag_term_info_st
+tf	extor/include/ext_common_def.h	/^    var_u1 tf;$/;"	m	struct:tag_term_info_st
+thread_del_save	src/event_manager.cpp	/^unsigned long __stdcall event_manager::thread_del_save(void* param)$/;"	f	class:event_manager
+thread_req_server	src/event_manager.cpp	/^unsigned long __stdcall event_manager::thread_req_server(void* param)$/;"	f	class:event_manager
+thread_sort	doc_storage/UT_Sort.h	/^	static CP_THREAD_T thread_sort(void* argv)$/;"	f	class:UT_Parallel_QS
+thread_trim	doc_storage/UC_DiskQuotaManager.h	/^	static CP_THREAD_T thread_trim(var_vd* argv)$/;"	f	class:UC_DiskQuotaManager
+thread_trim	doc_storage/UT_Persistent_KeyValue.h	/^	static CP_THREAD_T thread_trim(var_vd* argv)$/;"	f	class:UT_Persistent_KeyValue
+thread_upd_event	src/event_manager.cpp	/^unsigned long __stdcall event_manager::thread_upd_event(void* param)$/;"	f	class:event_manager
+thread_upd_extract	src/event_manager.cpp	/^unsigned long __stdcall event_manager::thread_upd_extract(void* param)$/;"	f	class:event_manager
+thread_upd_server	src/event_manager.cpp	/^unsigned long __stdcall event_manager::thread_upd_server(void* param)$/;"	f	class:event_manager
+travel_del	include/UT_HashTable_Pro.h	/^	var_4 travel_del(var_vd*& handle)$/;"	f	class:UT_HashTable_Pro
+travel_finish	include/UT_HashTable_Pro.h	/^	var_4 travel_finish(var_vd*& handle)$/;"	f	class:UT_HashTable_Pro
+travel_idx	include/UT_HashTable_Pro.h	/^	var_4  travel_idx;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+travel_key	include/UT_HashTable_Pro.h	/^	var_4 travel_key(var_vd* handle, T_Key& key, var_vd** const reference = NULL)$/;"	f	class:UT_HashTable_Pro
+travel_modify	include/UT_HashTable_Pro.h	/^	var_4 travel_modify(var_vd*& handle, var_vd* value)$/;"	f	class:UT_HashTable_Pro
+travel_pos	include/UT_HashTable_Pro.h	/^	var_1* travel_pos;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+travel_pre	include/UT_HashTable_Pro.h	/^	var_1* travel_pre;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+travel_prepare	include/UT_HashTable_Pro.h	/^	var_4 travel_prepare(var_vd*& handle, var_4 is_dynamic = 0, var_4 is_lock = 1)$/;"	f	class:UT_HashTable_Pro
+trim	include/UT_HashTable_Pro.h	/^	var_4 trim()$/;"	f	class:UT_HashTable_Pro
+tv_1	include/UH_Define.h	/^	struct timeval tv_1, tv_2;$/;"	m	struct:_cp_stat_time_	typeref:struct:_cp_stat_time_::timeval
+tv_2	include/UH_Define.h	/^	struct timeval tv_1, tv_2;$/;"	m	struct:_cp_stat_time_	typeref:struct:_cp_stat_time_::
+type	extor/include/ext_common_def.h	/^	word_type_e type;$/;"	m	struct:tag_term_info_st
+uint16_t	include/WFInt.h	/^    typedef u_int16_t   uint16_t;$/;"	t
+uint16_t	include/WFInt.h	/^    typedef unsigned __int16  uint16_t;$/;"	t
+uint32_t	include/WFInt.h	/^    typedef u_int32_t   uint32_t;$/;"	t
+uint32_t	include/WFInt.h	/^    typedef unsigned __int32  uint32_t;$/;"	t
+uint64_t	include/WFInt.h	/^    typedef u_int64_t   uint64_t;$/;"	t
+uint64_t	include/WFInt.h	/^    typedef unsigned __int64  uint64_t;$/;"	t
+uint8_t	include/WFInt.h	/^    typedef u_int8_t    uint8_t;$/;"	t
+uint8_t	include/WFInt.h	/^    typedef unsigned __int8   uint8_t;$/;"	t
+uninit	extor/src/CE_word_extractor.cpp	/^var_vd CE_word_extractor::uninit()$/;"	f	class:CE_word_extractor
+uninit	extor/src/TF_word_extractor.cpp	/^var_vd TF_word_extractor::uninit()$/;"	f	class:TF_word_extractor
+uninit	extor/src/base_share_container.cpp	/^var_vd base_share_container::uninit()$/;"	f	class:base_share_container
+uninit	extor/src/graph_word_extractor.cpp	/^var_vd graph_word_extractor::uninit()$/;"	f	class:graph_word_extractor
+uninit	extor/src/word_IDF_calcor.cpp	/^var_vd word_IDF_calcor::uninit()$/;"	f	class:word_IDF_calcor
+uninit	extor/src/zky_word_extractor.cpp	/^var_vd zky_word_extractor::uninit()$/;"	f	class:zky_word_extractor
+unlock	include/UH_Define.h	/^	inline void unlock()$/;"	f	struct:CP_MutexLock
+unlock	include/UH_Define.h	/^	inline void unlock()$/;"	f	struct:CP_MutexLock_RW
+unlock	include/UH_Define.h	/^	inline void unlock(CP_MUTEXLOCK_RW_LCK* lck)$/;"	f	struct:CP_MutexLock_RW_FUN
+unlock_store	include/UT_HashTable_Pro.h	/^	inline var_vd unlock_store(var_1* head)$/;"	f	class:UT_HashTable_Pro
+unlock_table	include/UT_HashTable_Pro.h	/^	inline var_vd unlock_table(var_8 idx)$/;"	f	class:UT_HashTable_Pro
+update	extor/src/word_IDF_calcor.cpp	/^var_4 word_IDF_calcor::update(term_info_st** _words, var_u4 _word_cnt)$/;"	f	class:word_IDF_calcor
+update	src/event_infer.cpp	/^var_4 event_infer::update(doc_infer* _dinfer,var_u4 _new)$/;"	f	class:event_infer
+update_DF	extor/src/base_share_container.cpp	/^var_4 base_share_container::update_DF(term_info_st** _words, var_u4 _word_cnt)$/;"	f	class:base_share_container
+update_key_list	src/event_container.cpp	/^var_4 event_container::update_key_list(doc_infer* dinfer)$/;"	f	class:event_container
+var_1	include/UH_Define.h	/^typedef               char var_1;$/;"	t
+var_2	include/UH_Define.h	/^typedef              short var_2;$/;"	t
+var_4	include/UH_Define.h	/^typedef                int var_4;$/;"	t
+var_8	include/UH_Define.h	/^typedef               long var_8;$/;"	t
+var_8	include/UH_Define.h	/^typedef            __int64 var_8;$/;"	t
+var_8	include/UH_Define.h	/^typedef          long long var_8;$/;"	t
+var_bl	include/UH_Define.h	/^typedef				  bool var_bl;$/;"	t
+var_d8	include/UH_Define.h	/^typedef             double var_d8;$/;"	t
+var_f4	include/UH_Define.h	/^typedef              float var_f4;$/;"	t
+var_p	src/event_container.h	/^typedef var_u4 var_p;$/;"	t
+var_p	src/event_container.h	/^typedef var_u8 var_p;$/;"	t
+var_u1	include/UH_Define.h	/^typedef      unsigned char var_u1;$/;"	t
+var_u2	include/UH_Define.h	/^typedef     unsigned short var_u2;$/;"	t
+var_u4	include/UH_Define.h	/^typedef       unsigned int var_u4;$/;"	t
+var_u8	include/UH_Define.h	/^typedef      unsigned long var_u8;$/;"	t
+var_u8	include/UH_Define.h	/^typedef   unsigned __int64 var_u8;$/;"	t
+var_u8	include/UH_Define.h	/^typedef unsigned long long var_u8;$/;"	t
+var_vd	include/UH_Define.h	/^typedef				  void var_vd;$/;"	t
+version	include/UT_HashTable_Pro.h	/^	const var_1* version()$/;"	f	class:UT_HashTable_Pro
+weight	extor/include/ext_common_def.h	/^	var_f4 weight;$/;"	m	struct:POS_Weight
+weight	extor/include/ext_common_def.h	/^	var_f4 weight;$/;"	m	struct:tag_term_info_st
+weight	extor/zky_cut/NLPIR.h	/^  int weight;\/\/word weight,read weight$/;"	m	struct:result_t
+whl_list	src/whl_list.h	/^    whl_list()$/;"	f	class:whl_list
+whl_list	src/whl_list.h	/^class whl_list$/;"	c
+whl_node	src/whl_list.h	/^struct whl_node$/;"	s
+word_ID	extor/zky_cut/NLPIR.h	/^  int word_ID; \/\/该词的内部ID号，如果是未登录词，设成0或者-1$/;"	m	struct:result_t
+word_IDF_calcor	extor/include/word_IDF_calcor.h	/^class word_IDF_calcor$/;"	c
+word_IDF_calcor	extor/src/word_IDF_calcor.cpp	/^word_IDF_calcor::word_IDF_calcor()$/;"	f	class:word_IDF_calcor
+word_id	extor/include/ext_common_def.h	/^    var_u8  word_id;$/;"	m	struct:tag_term_info_st
+word_str	extor/include/ext_common_def.h	/^    var_1 word_str[MAX_KEYWORD_LEN + 1];$/;"	m	struct:tag_term_info_st
+word_type	extor/zky_cut/NLPIR.h	/^  int word_type; \/\/区分用户词典;1，是用户词典中的词；0，非用户词典中的词$/;"	m	struct:result_t
+word_type_e	extor/include/ext_common_def.h	/^typedef int word_type_e;$/;"	t
+wr_f	include/UH_Define.h	/^	var_u4 wr_f; \/\/ write flag$/;"	m	struct:CP_MutexLock_RW
+wr_f	include/UH_Define.h	/^	var_u4 wr_f; \/\/ write flag$/;"	m	struct:CP_MutexLock_RW_LCK
+zky_word_extractor	extor/include/zky_word_extractor.h	/^class zky_word_extractor : public base_word_extractor$/;"	c
+zky_word_extractor	extor/src/zky_word_extractor.cpp	/^zky_word_extractor::zky_word_extractor()$/;"	f	class:zky_word_extractor
+~CAutolock	include/WFLock.h	/^    ~CAutolock()$/;"	f	class:nsWFLock::CAutolock
+~CBlockListQueue	include/WFQueue.h	/^    ~CBlockListQueue()$/;"	f	class:nsWFQueue::CBlockListQueue
+~CBlockListSet	include/WFQueue.h	/^	~CBlockListSet()$/;"	f	class:nsWFQueue::CBlockListSet
+~CBlockMemory	include/WFMem.h	/^    ~CBlockMemory()$/;"	f	class:nsWFMem::CBlockMemory
+~CCheckTimeoutList	include/WFQueue.h	/^    ~CCheckTimeoutList()$/;"	f	class:nsWFQueue::CCheckTimeoutList
+~CE_word_extractor	extor/src/CE_word_extractor.cpp	/^CE_word_extractor::~CE_word_extractor()$/;"	f	class:CE_word_extractor
+~CLock	include/WFLock.h	/^        ~CLock() $/;"	f	class:nsWFLock::CLock
+~CMonitor	include/WFMonitor.h	/^    ~CMonitor()$/;"	f	class:nsWFMonitor::CMonitor
+~CP_MutexLock	include/UH_Define.h	/^	~CP_MutexLock()$/;"	f	struct:CP_MutexLock
+~CP_MutexLock_RW	include/UH_Define.h	/^	~CP_MutexLock_RW()$/;"	f	struct:CP_MutexLock_RW
+~CP_MutexLock_RW_FUN	include/UH_Define.h	/^	~CP_MutexLock_RW_FUN()$/;"	f	struct:CP_MutexLock_RW_FUN
+~CPriorityBlockQueue	include/WFQueue.h	/^    ~CPriorityBlockQueue()$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+~CReuseMemory	include/WFMem.h	/^    ~CReuseMemory()$/;"	f	class:nsWFMem::CReuseMemory
+~CSock	include/WFSocket.h	/^    ~CSock()$/;"	f	class:nsWFSocket::CSock
+~CTcpServer	include/WFSocket.h	/^    ~CTcpServer()$/;"	f	class:nsWFSocket::CTcpServer
+~CTraversalDir	include/WFPub.h	/^    ~CTraversalDir()$/;"	f	class:nsWFPub::CTraversalDir
+~TF_word_extractor	extor/src/TF_word_extractor.cpp	/^TF_word_extractor::~TF_word_extractor()$/;"	f	class:TF_word_extractor
+~UC_Allocator_Recycle	include/UC_Allocator_Recycle.h	/^	~UC_Allocator_Recycle()$/;"	f	class:UC_Allocator_Recycle
+~UC_ReadConfigFile	include/UC_ReadConfigFile.h	/^	~UC_ReadConfigFile()$/;"	f	class:UC_ReadConfigFile
+~UT_Allocator	include/UT_Allocator.h	/^	~UT_Allocator()$/;"	f	class:UT_Allocator
+~UT_HashSearch	include/UT_HashSearch.h	/^	~UT_HashSearch()$/;"	f	class:UT_HashSearch
+~UT_HashTable_Pro	include/UT_HashTable_Pro.h	/^	~UT_HashTable_Pro()$/;"	f	class:UT_HashTable_Pro
+~UT_Queue	include/UT_Queue.h	/^	~UT_Queue()$/;"	f	class:UT_Queue
+~_cp_memory_map_file_	include/UH_Define.h	/^	~_cp_memory_map_file_()$/;"	f	struct:_cp_memory_map_file_
+~base_share_container	extor/src/base_share_container.cpp	/^base_share_container::~base_share_container()$/;"	f	class:base_share_container
+~base_word_extractor	extor/src/base_word_extractor.cpp	/^base_word_extractor::~base_word_extractor()$/;"	f	class:base_word_extractor
+~doc_infer	src/doc_infer.cpp	/^doc_infer::~doc_infer()$/;"	f	class:doc_infer
+~event_container	src/event_container.cpp	/^event_container::~event_container()$/;"	f	class:event_container
+~event_infer	src/event_infer.cpp	/^event_infer::~event_infer()$/;"	f	class:event_infer
+~event_manager	src/event_manager.cpp	/^event_manager::~event_manager()$/;"	f	class:event_manager
+~evt_mgr_confer	src/evt_mgr_confer.h	/^	~evt_mgr_confer()$/;"	f	class:evt_mgr_confer
+~graph_word_extractor	extor/src/graph_word_extractor.cpp	/^graph_word_extractor::~graph_word_extractor()$/;"	f	class:graph_word_extractor
+~static_array	include/utility.h	/^    ~static_array() {}$/;"	f	class:static_array
+~whl_list	src/whl_list.h	/^    ~whl_list()$/;"	f	class:whl_list
+~word_IDF_calcor	extor/src/word_IDF_calcor.cpp	/^word_IDF_calcor::~word_IDF_calcor()$/;"	f	class:word_IDF_calcor
+~zky_word_extractor	extor/src/zky_word_extractor.cpp	/^zky_word_extractor::~zky_word_extractor()$/;"	f	class:zky_word_extractor

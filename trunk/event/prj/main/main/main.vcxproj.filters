@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="extor">
+      <UniqueIdentifier>{792f761f-a37f-469b-adab-4d7106690bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="event">
+      <UniqueIdentifier>{6cdb252f-b75c-4516-a084-4263fe767139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{451f3c63-ce49-4e47-9486-5b6103e095a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="doc_storer">
+      <UniqueIdentifier>{9c0de004-cc9a-4f67-a498-f6a860e64810}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\extor\src\base_share_container.cpp">
+      <Filter>extor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extor\src\base_word_extractor.cpp">
+      <Filter>extor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extor\src\CE_word_extractor.cpp">
+      <Filter>extor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extor\src\graph_word_extractor.cpp">
+      <Filter>extor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extor\src\TF_word_extractor.cpp">
+      <Filter>extor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extor\src\word_extractor_API.cpp">
+      <Filter>extor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extor\src\word_IDF_calcor.cpp">
+      <Filter>extor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extor\src\zky_word_extractor.cpp">
+      <Filter>extor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\doc_infer.cpp">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\event_container.cpp">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\event_infer.cpp">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\event_manager.cpp">
+      <Filter>event</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\extor\src\base_share_container.h">
+      <Filter>extor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extor\src\base_word_extractor.h">
+      <Filter>extor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extor\src\CE_word_extractor.h">
+      <Filter>extor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extor\src\graph_word_extractor.h">
+      <Filter>extor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extor\src\TF_word_extractor.h">
+      <Filter>extor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extor\src\word_extractor_API.h">
+      <Filter>extor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extor\src\word_IDF_calcor.h">
+      <Filter>extor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extor\src\zky_word_extractor.h">
+      <Filter>extor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\doc_infer.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\event_container.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\event_infer.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\event_manager.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\evt_mgr_confer.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\utility.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\UC_Allocator_Recycle.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\UC_MD5.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\UC_ReadConfigFile.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\UH_Define.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\UT_Allocator.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\UT_HashSearch.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\UT_Queue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\WFInt.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\WFLock.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\WFLog.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\WFMem.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\WFMonitor.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\WFPub.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\WFQueue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\WFSocket.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\WFThread.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extor\src\ext_common_def.h">
+      <Filter>extor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common_def.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\doc_storage\UC_DiskQuotaManager.h">
+      <Filter>doc_storer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\doc_storage\UT_Persistent_KeyValue.h">
+      <Filter>doc_storer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\UT_HashTable_Pro.h">
+      <Filter>doc_storer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\whl_list.h">
+      <Filter>event</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
